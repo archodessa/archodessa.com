@@ -7,7 +7,7 @@ function styleObject($list) {
         if (!isset($item["state"])) $item["state"] = "on";
 
         if($item["state"] !== "off") {
-            $html .= "<li class='app-item'>
+            $html .= "<li class='app-item' data-lang='" . $item["lang"] ."'>
                         <a href='" . $item["url"] . "'>
                             <img src='/images/space.png' data-original='" . $item["img"] . "' class='lazy' height='256' width='256' alt='" . $item["alt"] . "' />
                             <h3>" . $item["name"] . "</h3>

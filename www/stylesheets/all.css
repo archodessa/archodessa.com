@@ -578,3 +578,17 @@ a:hover h3, a:focus h3 {
         max-height: 830px;
     }
 }
+
+
+/***/
+a.lang-btn {
+    margin-left: 5px;
+    text-decoration: none;
+    border-bottom: 1px dashed rgb(122, 0, 255);
+}
+a.lang-btn.active  {
+    color: #000000;
+    cursor: default;
+    font-weight: bold;
+    border: none;
+}

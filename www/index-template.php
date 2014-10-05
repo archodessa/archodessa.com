@@ -59,6 +59,11 @@
         </h1>
     </header>
     <nav>
+        <div id="langs-switcher" style="margin-top: 17px;">
+            <a id="ru-lang-btn" class="active lang-btn" href="" data-for-lang="ru">Рус</a>
+            <a id="fr-lang-btn" class="lang-btn" href="" data-for-lang="fr">Fr</a>
+        </div>
+
         <ul id='main-nav'>
         </ul>
     </nav>
