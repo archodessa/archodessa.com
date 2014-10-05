@@ -1,0 +1,901 @@
+/* --- CSS Reset --- */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, acronym, address, code,
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0px;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* ----------------- */
+
+html, body{
+	background: #fff;
+	text-align: center;
+	font-size: 16px;
+	height: 100%;
+  
+  min-width: 1000px !important;
+}
+
+a{
+	/*text-decoration: underline;*/
+}
+a:hover{
+	color: #bb3333;
+}
+
+
+
+.logo { 
+	z-index: 100;
+	width: 96px;
+	height: 96px;
+	position: absolute;
+	margin: 20px 0 0 80%;
+ }
+
+
+
+/* Поиск в шапке */
+
+
+/*типограф*/
+span.sbrace {
+    margin-right: 0.5em;
+}
+span.hbrace {
+    margin-left: -0.5em;
+}
+span.slaquo {
+    margin-right: 0.44em;
+}
+span.hlaquo {
+    margin-left: -0.44em;
+}
+span.slaquo-s {
+    margin-right: 0.7em;
+}
+span.hlaquo-s {
+    margin-left: -0.7em;
+}
+span.slaquo-b {
+    margin-left: 0.85em;
+}
+span.hlaquo-b {
+    margin-left: -0.85em;
+}
+span.sbdquo {
+    margin-right: 0.4em;
+}
+span.hbdquo {
+    margin-left: -0.4em;
+}
+span.sbdquo-s {
+    margin-right: 0.35em;
+}
+span.sbdquo-s {
+    margin-left: -0.35em;
+}
+span.squot {
+    margin-right: 0.32em;
+}
+span.hquot {
+    margin-left: -0.32em;
+}
+span.sowc {
+    margin-right: 0.04em;
+}
+span.howc {
+    margin-left: -0.04em;
+}
+span.sowcr {
+    margin-right: 0.05em;
+}
+span.howcr {
+    margin-left: -0.05em;
+}
+
+
+
+.bgwidth { width: 100%; }
+.bgheight { height: 100%; }
+.background-photo{
+  position:fixed;
+}
+
+
+.dashed{
+  border-bottom: 1px dashed;
+	text-decoration: none;
+}
+
+.wrapper{
+	text-align: left;	
+	/*height: auto;*/
+  height:100%;
+  min-height:100%;
+	min-width: 1000px;
+	position: relative;
+  /*background-attachment: fixed !important;*/
+}
+.wrapper.black, html.black{
+	background-color: #1d1d20;
+}
+.wrapper.white, html.white{
+	background-color: #ffffff;
+}
+
+.wrapper .header{
+	position: relative;
+	z-index: 20;
+	height: 32px;
+	width: 100%;	
+  overflow: hidden;
+}
+.wrapper .header .grad{
+	position: absolute;
+	width: 100%;
+	height: 5px;
+	background: url("/burosfera/images/about/header-grad.png") left top repeat;
+	z-index:45;
+}
+.wrapper .header .bg{
+	opacity: 0.85;
+	width:100%;
+	height:100%;
+	background: #000;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index:30;
+}
+.wrapper .header .cont{
+	z-index:40;
+	position:relative;
+	width:100%;
+	height:100%;
+}
+
+.wrapper .header a, .wrapper .header a:visited, .username{
+	color: #fff;
+}
+.wrapper .header a:hover, .wrapper .header .nav li.active a:hover{
+	color: #ffffff;
+}
+.wrapper .header .nav, .wrapper .header .username{
+	height: 100%;
+}
+.wrapper .header .nav{
+	float: left;
+	list-style-type: none;
+}
+.wrapper .header .nav li{
+	display: block;
+	float: left;
+	height: 100%;
+}
+.wrapper .header .nav li.active a, .wrapper .header .nav li.active a:visited{
+	color: #eee;
+}
+.wrapper .header .nav li.active a:hover{
+	color: #ffffff;
+}
+.wrapper.white .header .nav li.active{
+	background: rgba(255,255,255,0.15);
+	/* background: #464646; */
+}
+.wrapper.black .header .nav li.active{
+	background: rgba(255,255,255,0.15);
+}
+.wrapper .header .nav li a, .wrapper .header .nav li span, .username{
+	display: block;
+	padding: 0.55em 0.55em;
+	font-size: 0.8125em;
+
+}
+.wrapper .header .nav-first{
+    margin-left: -0.5em;
+    padding-left: 7%;
+}
+.wrapper .header .nav-second{
+	padding-left: 4%;
+}
+.username{
+	float: right;
+	margin-right: 3%;
+}
+
+
+.wrapper .main{
+	position: relative;
+	z-index: 20;
+  /*overflow:hidden;*/
+  height:100%;
+}
+
+
+
+.wrapper .user-info{
+  position: relative;
+  margin-left: 7%;
+  top: 1.25em;
+  z-index:20;
+}
+
+
+.wrapper .content{
+	margin-left: 7%;
+	margin-top: 21px;
+	position:relative;
+}
+.wrapper .border .content{
+	margin-top: -13px;
+}
+
+.wrapper .edit-border{
+	position:relative;
+	top:-108px;
+  margin-bottom: -105px;
+	left:0;
+	width: 100%;
+	height: 100%;
+	margin-left: -36px;
+	min-width: 810px;
+	z-index:10;
+}
+.wrapper .edit-border .pre{
+	height:6.31em;
+}
+.wrapper.white .edit-border .border{
+  border: 3px dashed #E3E3E3;;
+  border-radius: 20px;
+  padding: 34px;
+  background: rgba(255, 255, 255, 0.6);
+}
+.wrapper.black .edit-border .border{
+  border: 3px dashed #737375;
+  border-radius: 20px;
+  padding: 34px;
+  background: rgba(0, 0, 0, 0.6);
+}
+.wrapper .edit-border .post{
+	height:2em;
+}
+.wrapper .edit-border .content{
+	/*margin-top:-3em;*/
+	margin-left:-8px;
+	margin-bottom:-1em;
+}
+
+
+/* Fonts */
+@font-face {
+	  font-family: 'PT Sans';
+	  font-style: normal;
+	  font-weight: bold;
+	  src: local('PT Sans Bold'), local('PTSans-Bold'), url('../fonts/PTSans-Bold.woff') format('woff');
+	}
+	@font-face {
+	  font-family: 'PT Sans';
+	  font-style: normal;
+	  font-weight: normal;
+	  src: local('PT Sans'), local('PTSans-Regular'), url('../fonts/PTSans-Regular.woff') format('woff');
+	}
+
+	@font-face {
+	  font-family: 'PT Serif';
+	  font-style: normal;
+	  font-weight: bold;
+	  src: local('PT Serif Bold'), local('PTSerif-Bold'), url('../fonts/PTSerif-Bold.woff') format('woff');
+	}
+	@font-face {
+	  font-family: 'PT Serif';
+	  font-style: normal;
+	  font-weight: normal;
+	  src: local('PT Serif'), local('PTSerif-Regular'), url('../fonts/PTSerif-Regular.woff') format('woff');
+	}
+
+
+.wrapper .name{
+	display: block;
+	font-size: 1em;
+	line-height: 1.25em;
+  	font-family: "PT Sans";
+	font-weight: bold;
+	margin-bottom: 0.3em;
+}
+.wrapper .desc{
+	line-height: 1.3em;
+	font-size: 0.725em; 
+	font-family: "PT Sans";
+  margin-bottom: 1.1em;
+}
+.wrapper.black .name, .wrapper.black .desc{
+	color: #ffffff;
+}
+.wrapper .user-nav{
+	position: relative;
+  display: inline-block;
+	margin-top: 2px;
+	margin-bottom: 1.7em;
+	
+	height: 20px;
+}
+
+
+.wrapper .user-nav li{
+/*	float: left;
+	padding: 0 0.6em;
+	height: 20px; */
+}
+.wrapper .user-nav li.active{
+	background: #f7eec6;
+}
+.wrapper.black .user-nav li.active{
+	background: #bb3300;
+}
+.wrapper .user-nav li a.n{
+	color: #000000;
+}
+.wrapper.black .user-nav li a.n{
+	color: #ffffff;
+}
+.wrapper .user-nav li a.n:hover{
+	color: #bb3333;
+}
+.wrapper .user-nav li .n{
+	line-height: 20px;
+	font-family: "PT Sans";
+	color: #666666;
+	vertical-align: top;
+}
+.wrapper .user-nav li.active .n{
+	color: #000000;
+}
+.wrapper.black .user-nav li.active .n{
+	color: #eee;
+}
+.wrapper.black .user-nav li.active .n:hover{
+	color: #fff;
+}
+.wrapper .user-nav li .count{
+	font-size: 0.625em;
+	font-family: "PT Sans";
+	color: #666666;
+	margin-left: 0.3em;
+	vertical-align: top;
+	line-height: 20px;
+}
+.wrapper.white .user-nav li .count{
+	color: #666666;
+}
+.wrapper.black .user-nav li .count{
+	color: #999999;
+}
+.wrapper .user-text{
+	position: relative;
+	clear: both;
+}
+.wrapper .user-text h1{
+	font-size: 2.25em;
+	font-family: "PT Serif";
+	font-style: italic;
+	display: block;
+	margin-bottom: 0.27em;
+	margin-top: 45px;	
+	width: 32%;
+}
+
+.wrapper .user-text h1 span.slaquo-s {
+    margin-right: 0.6em;
+}
+.wrapper .user-text h1 span.hlaquo-s {
+    margin-left: -0.6em;
+}
+.wrapper .user-text h1.empty{
+  /*margin-top: 1.34em;*/
+  height:39px;
+  width:auto;
+  margin-bottom:0.6em;
+}
+.wrapper .user-text h1.unknown{
+  color: #bfbfbf;	
+  height:auto;
+  margin-bottom:0.25em
+}
+.wrapper .user-text h1.empty a{
+	width: auto;
+	float: left;
+	color: #adadad;	
+	border-width: 0px 0px 4px; 
+	padding-bottom: 2px;
+	/*-moz-border-image: url(/burosfera/images/about/border-black-nobg.png) 27 0 4 80 round; 
+	-webkit-border-image: url(/burosfera/images/about/border-black-nobg.png) 27 0 4 80 round; 
+	-o-border-image: url(/burosfera/images/about/border-black-nobg.png) 27 0 4 80 round; 
+	border-image: url(/burosfera/images/about/border-black-nobg.png) 27 0 4 80 round;*/
+  border-bottom: 3px dashed #adadad;
+}
+.wrapper.black .user-text h1.empty a{
+	/*-moz-border-image: url(/burosfera/images/about/border-black-nobg.png) 27 40 4 40 round; 
+	-webkit-border-image: url(/burosfera/images/about/border-black-nobg.png) 27 40 4 40 round; 
+	-o-border-image: url(/burosfera/images/about/border-black-nobg.png) 27 40 4 40 round; 
+	border-image: url(/burosfera/images/about/border-black-nobg.png) 27 40 4 40 round;*/
+  border-bottom: 3px dashed #5c5c5f;
+}
+
+/*
+.wrapper .user-text h1.empty a:hover, .wrapper.black .user-text h1.empty a:hover{
+	-moz-border-image: url(/burosfera/images/about/border-black-nobg.png) 27 80 4 0 round; 
+	-webkit-border-image: url(/burosfera/images/about/border-black-nobg.png) 27 80 4 0 round; 
+	-o-border-image: url(/burosfera/images/about/border-black-nobg.png) 27 80 4 0 round; 
+	border-image: url(/burosfera/images/about/border-black-nobg.png) 27 80 4 0 round;
+}*/
+.ie6 .wrapper .user-text h1.empty, .ie7 .wrapper .user-text h1.empty, .ie8 .wrapper .user-text h1.empty{
+	border-bottom: 3px dashed #e3e3e3;
+}
+.wrapper .user-text h1.empty a, .wrapper .user-text h1.empty a:visited{
+  text-decoration: none !important;
+  color: #adadad; 
+}
+.wrapper.black .user-text h1.empty a{
+	color: #5c5c5f;
+}
+.wrapper .user-text h1.empty a:hover{
+  color: #b33;
+  border-color: #b33;
+}
+.wrapper.black .user-text h1.empty a:hover{
+  color: #b33;
+  border-color: #b33;
+}
+.ie6 .wrapper.black .user-text h1.empty, .ie7 .wrapper.black .user-text h1.empty, .ie8 .wrapper.black .user-text h1.empty{
+	border-bottom: 3px dashed #464648;
+}
+.wrapper .user-text h2{
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 0.6875em;
+}
+.wrapper .user-text .view-form{
+  margin-top:2.8125em;
+}
+.wrapper .user-text .view-form .left{
+  position:relative;
+  float:left;
+  padding-top:2.15em;
+}
+.wrapper .user-text .view-form .left label{
+  font-size: 0.75em;
+}
+.wrapper .user-text .view-form .center{
+  margin-left:5%;
+  position:relative;
+  float:left;
+  width:80%;
+}
+.wrapper .user-text .view-form .center .text{
+    font-size: 1.2em;
+    margin-bottom: 0.49em;
+    margin-top: 1px;
+    padding: 3px 0;
+    width: 70%;
+}
+.wrapper .user-text .view-form .center .submit{
+  font-size:0.75em;
+  margin-left:1.7em;
+  position:relative;
+  top:-0.2em;
+}
+.wrapper .user-text .view-form p{
+  font: 0.8125em/1.231em "PT Sans";
+  margin-bottom: 0.62em;
+  width:70%;
+}
+
+.wrapper.black .user-text h1.empty{
+	color: #5c5c5f;
+}
+
+.wrapper.black .user-text h1{
+	color: #ffffff;
+}
+.wrapper .user-text .text{
+	font-family: "PT Sans";
+	width: 25%;
+	margin-bottom: 0.7em;
+	clear: both;
+}
+.wrapper.black .user-text .text{
+	color: #fff;
+}
+.wrapper.white .user-text a, .wrapper.white .user-text a:visited{
+	color: #0c4f72;
+	
+}
+.wrapper.black .user-text a, .wrapper.black .user-text a.no-u u, .wrapper.black .user-text a:visited{
+	color: #fff;
+	border-color: #fffff;
+	border-color: rgba(0, 162, 255, 0.3);
+}
+
+.wrapper.black .user-text a:hover, .wrapper.black .user-text a:hover.no-u u {
+	color: #fff;
+	 border-color: #bb3300; border-color: rgba(187, 51, 0, 0.3);
+}
+
+.wrapper.white .user-text a:hover, .wrapper.white .user-text a:hover.no-u u {
+	color: #bb3300;
+	 border-color: #bb3300; border-color: rgba(187, 51, 0, 0.2);
+}
+
+
+.wrapper .user-text .text p{
+	margin-bottom: 0.62em;
+  font: 0.8125em/1.231em "PT Sans";
+}
+.wrapper .user-text .text.empty p{
+	color: #919191;
+}
+.wrapper.black .user-text .text.empty p{
+	color: #8a8a8c;
+}
+
+.wrapper .user-text .user-links{
+	width: 30%;
+	/*overflow: auto;*/
+}
+.wrapper .user-text .user-links p{
+  clear: both;
+  display: block;
+  width: 100%;
+}
+.wrapper .user-text .user-links .fb-link{
+	background: url("/burosfera/images/about/facebook.png") 0px 2px no-repeat;
+	padding-left: 18px;
+
+}
+.wrapper .user-text .user-links .tw-link{
+	background: url("/authors/vk1.png") -7px 1px no-repeat;
+	padding-left: 18px;
+
+}
+.wrapper .user-text .user-links .lj-link{
+	background: url("/burosfera/images/about/livejournal.png") 0px 3px no-repeat;
+	padding-left: 18px;
+
+}
+.wrapper .user-text .user-links a{
+	font-family: "PT Sans";
+	font-size: 0.6875em;
+	line-height:1.4em;
+	display: block;
+	float: left;
+	margin-right: 1.5em;
+	height: 2.2em;
+}
+.wrapper .content .edit-form{
+	margin-top: 2.8em;
+}
+.wrapper .content .edit-form p label, .wrapper .content .edit-form p input, .wrapper .content .edit-form p textarea{
+  font: 0.8em/1.3em "PT Sans";
+}
+.wrapper .content .edit-form p {
+	margin-bottom: 0.6125em;
+}
+.wrapper .content .edit-form p.phrase{
+  margin-bottom: 0.69em;
+}
+.wrapper .content .edit-form p.email, .wrapper .content .edit-form p.city, .wrapper .content .edit-form p.about{
+	margin-bottom: 1.45em;
+}
+.wrapper .content .edit-form p label{
+	display: block;
+	width: 150px;
+	float: left;
+}
+.wrapper .content .edit-form p.about{
+margin-bottom: 1.5em;
+}
+.wrapper .content .edit-form label{
+  padding-top:3px;
+}
+.wrapper.black .content .edit-form p label, .wrapper.black .content .image-upload label, .wrapper.black .content .image-delete a{
+	color: #ccc;
+}
+
+.wrapper .content .edit-form p.phrase input[type="text"], .wrapper .content .edit-form p textarea{
+	width: 499px;
+  padding-left:2px;
+}
+.wrapper .content .edit-form p textarea{
+  height: 17em;
+}
+.wrapper .content .edit-form p input[type="text"]{
+	width: 300px;
+}
+.wrapper .content .edit-form p.socio{
+	position: relative;
+	padding-left: 150px;
+}
+.wrapper .content .edit-form p.socio input[type="text"]{
+	width: 135px;
+}
+.wrapper .content .edit-form p.socio input.error{
+  color:red;
+}
+.wrapper .content .edit-form p.socio img{
+	position: relative;
+	top: 1px;
+	margin-right: 8px;
+	margin-left: 13px;
+}
+.wrapper .content .edit-form p.socio .tw{	
+	top: -1px;
+	margin-left: -21px;
+}
+.wrapper .content .edit-form .submit-area{
+	width: 665px;
+	height: 3em;
+	background: #f3f3e2;
+	margin-left: -10px;
+	margin-top: 2em;
+}
+.wrapper.black .content .edit-form .submit-area{
+	background: #19191b;
+}
+
+
+.wrapper .content .edit-form .submit-area input{
+	margin-left: 160px;
+	margin-top: 0.8em;
+	font-size: 0.8em;
+	font-family: Verdana, Arial, sans-serif;
+}
+.wrapper .content .image-upload{
+	position: absolute;
+	top: -2.75em;
+	right: 266px;
+
+  height:24px;
+}
+.wrapper .content .image-upload input{
+
+}
+.wrapper.black .content .image-upload input{
+	color:#fff;
+}
+.wrapper .content .image-upload label, .wrapper .content .image-upload input, .wrapper .content .image-delete{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 0.8em;
+}
+.wrapper .content .image-upload label{
+	padding-right: 0.1em;
+
+}
+.wrapper .content .image-upload input{
+  max-width: 225px
+}
+.wrapper .content .image-upload .loader{
+  #background: url('/burosfera/images/about/loader.gif') top left no-repeat;
+  width: 200px;
+  height:16px;
+  display:none;
+  margin-bottom:-4px;
+}
+.wrapper.black .content .image-upload .loader{
+  #background: url('/burosfera/images/about/loader.gif') top left no-repeat;
+}
+.wrapper .content .image-delete{
+	position: absolute;
+  width:62px;
+  height:43px;
+  border:1px solid #ccc;
+	top: -4.2em;
+	right: 193px;
+  overflow: hidden;
+}
+
+.wrapper .content .close{
+    height: 25px;
+    position: absolute;
+    right: -21px;
+    top: -53px;
+    width: 25px;
+}
+.wrapper .content .close a{
+  width:25px;
+  height:25px;
+  display:block;
+  background:url(/burosfera/images/about/cross.png) left top no-repeat;
+}
+.wrapper .content .close a:hover {
+  background-position: -25px 0;
+}
+/*
+.wrapper .content .close a:hover{
+  background:url(/burosfera/images/about/remove.sprite.png) right top no-repeat;
+}*/
+
+
+
+
+.wrapper .content .image-delete .noImage{
+  width:62px;
+  height:43px;
+  background: url('/burosfera/images/about/photo.png') center center no-repeat;
+}
+.wrapper.black .content .image-delete .noImage{
+  width:62px;
+  height:43px;
+  background: url('/burosfera/images/about/photo-black.png') center center no-repeat;
+}
+.wrapper .content .image-delete.disabled .noImage{
+  opacity:0.2;
+}
+.wrapper .content .image-delete.resized .noImage{
+  background:none;
+}
+.wrapper.black .content .image-delete{
+  border:1px solid #666;
+}
+.wrapper .content .image-delete  img{
+	position: absolute;
+	top:0px;
+}
+.wrapper .content .style-switcher{
+	position: absolute;
+  right: 10px;
+  top: -2.75em;
+  width: 9.5em;
+}
+.wrapper .content .style-switcher .strut{
+  margin-right: -50px;
+  visibility: hidden;
+  width: 50px;
+}
+.wrapper .content .style-switcher  label{
+  display:inline; 
+  font-family: Verdana,Arial,sans-serif;
+  font-size: 0.8em;
+  padding-right:0px;
+}
+.wrapper.black .content .style-switcher  label{
+  color:#ccc;
+}
+.wrapper .content .style-switcher ul{
+  list-style-type: none;
+  position:absolute;
+  left:50px;
+  top:-0.35em;
+}
+.wrapper .content .style-switcher li{
+	width: 37px;
+	height: 37px;
+	margin-bottom: 6px;
+  margin-right:3px;
+	position: relative;
+  float:left;
+}
+.wrapper .content .style-switcher a{
+	display: block;
+	width: 22px;
+	height: 22px;
+	text-decoration: none;
+	cursor: pointer;
+	position: relative;
+	top: 7px;
+	left: 7px;
+}
+.wrapper .content .style-switcher .white a{
+	background: #000;
+}
+.wrapper .content .style-switcher .black a{
+	#background: url("/burosfera/images/about/white-switcher.png") top left no-repeat;
+	background: #fff;
+}
+
+.wrapper .content .style-switcher .white a{
+	border: solid 1px #333333;
+}
+
+.wrapper .content .style-switcher .black a{
+	border: solid 1px #cccccc;
+}
+
+.wrapper .content .style-switcher .black a{
+	#background: url("/burosfera/images/about/white-switcher.png") top left no-repeat;
+}
+
+.wrapper.white .content .style-switcher .white{
+	background: #f7eec6;
+}
+.wrapper.black .content .style-switcher .black{
+	background: #f7eec6;
+}
+.wrapper.white .content .style-switcher .white a{
+	cursor: default !important;
+}
+.wrapper.black .content .style-switcher .black a{
+	cursor: default !important;
+}
+
+
+.wrapper .notification-box{
+  min-height: 33px;
+  background: #ffe77f;
+  font: 0.8125em/1.231em Verdana,Arial,sans-serif;
+  clear:both;
+  position:relative;
+  overflow:hidden;
+  *zoom: 1;
+  z-index:30;
+}
+.wrapper .notification-box .text-block{
+  float:left;
+  min-width: 1000px;
+}
+.wrapper .notification-box .text{
+  position:relative;
+  margin-left:7%;
+  float: left;
+  margin-right: -100%;
+  _margin-right: -200%;
+  width: 93%;
+}
+.wrapper .notification-box p{
+  width:auto;
+  float: left;
+  padding: 0.55em 2em 0.5em 0;
+}
+.wrapper .notification-box input.strut {
+  visibility: hidden;
+  width: 50px;
+  margin-right: -50px;
+}
+.wrapper .notification-box form{
+  float:left;
+  margin-bottom:0.5em;
+  padding-top: 0.55em;
+}
+.wrapper .notification-box img{
+  position:relative;
+  top:2px;
+}
+.wrapper .notification-box a{
+  color:#000;
+}
+.wrapper .notification-box a:hover{
+  color: #bb3333;
+}
+.wrapper .notification-box input{
+  margin-top:0;
+  position:relative;
+  top:0;
+  right:0;
+}
+.wrapper .notification-login .change-address{
+
+}
+.fixed-email{
+  color:#666;
+  font-size:0.8em;
+  padding-left:4px;
+}
+.email-error{
+  color: #BB3333;
+  display: block;
+  font-size: 0.8em;
+  margin-left: 150px;
+  margin-top: 5px;
+}
+
+

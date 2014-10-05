@@ -1,0 +1,4 @@
+a:1:{i:0;a:17:{s:6:"number";i:1;s:4:"name";s:12:"Никола";s:11:"author-name";s:35:"Архитектура Одессы";s:8:"visible?";b:1;s:10:"important?";b:0;s:14:"reply-visible?";b:1;s:16:"reply-important?";b:0;s:13:"spam-suspect?";b:0;s:4:"time";a:2:{i:0;i:1375560693;i:1;a:2:{s:6:"offset";i:10800;s:6:"is_dst";b:0;}}s:13:"last-modified";a:2:{i:0;i:1375560693;i:1;a:2:{s:6:"offset";i:10800;s:6:"is_dst";b:0;}}s:10:"reply-time";a:2:{i:0;i:1375561728;i:1;a:2:{s:6:"offset";i:10800;s:6:"is_dst";b:0;}}s:19:"reply-last-modified";a:2:{i:0;i:1375561728;i:1;a:2:{s:6:"offset";i:10800;s:6:"is_dst";b:0;}}s:4:"text";s:56:"<p>Дата строительства: 1911 год</p>
+";s:9:"replying?";b:0;s:8:"replied?";b:1;s:5:"reply";s:179:"<p>Откуда данные?<br />
+Кстати стилистически не может такого быть. Так в 1910-х годах уже не строили.</p>
+";s:1:"_";a:3:{s:3:"_id";s:2:"68";s:4:"_ord";i:0;s:8:"_ord_max";i:0;}}}

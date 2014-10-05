@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html ng-app="archodessa">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html" />
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="/js/img/favicon.png" />
+    <title>Архитектура Одессы</title>
+    <meta name="document-state" content="Dynamic" />
+    <meta name="author" lang="en" content="Agafonov Eugene" />
+    <meta name="copyright" content="Alexander Levitsky, alex@alexlevitsky.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!-- <link rel="stylesheet" type="text/css" href="/view/css/index.css" /> -->
+    <script type="text/javascript" src="http://maps.api.2gis.ru/1.0"></script>
+    <style type="text/css">
+      .thumb {
+        float: left;
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div ng-controller="MainController">
+      <div ng-switch on="currentView">
+        <div ng-switch-when="map" ng-controller="MapController">
+          <div id="aoMap" style="width:500px; height:400px"></div>
+        </div>
+        <div ng-switch-when="info" ng-controller="InfoController">
+          <button ng-click="goBack()">&#8678;</button>
+          <input type="text" ng-model="newphoto">
+          <button ng-click="addPhoto()">&#10010;</button>
+          <div style="clear:both;"></div>
+          <div class="thumb" ng-repeat="ph in photos">
+            <img ng-src="{{ph.src}}">
+          </div>
+        </div>
+      </div>
+      {{currentView}}
+    </div>
+    <script type="text/javascript" src="/javascripts/lib/angular.min.js"></script>
+    <script type="text/javascript" src="/javascripts/app.js"></script>
+  </body>
+</html>

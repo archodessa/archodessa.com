@@ -1,0 +1,4 @@
+a:1:{i:0;a:17:{s:6:"number";i:1;s:4:"name";s:20:"Александра";s:11:"author-name";s:35:"Архитектура Одессы";s:8:"visible?";b:1;s:10:"important?";b:0;s:14:"reply-visible?";b:1;s:16:"reply-important?";b:0;s:13:"spam-suspect?";b:0;s:4:"time";a:2:{i:0;i:1371055050;i:1;a:2:{s:6:"offset";i:10800;s:6:"is_dst";b:0;}}s:13:"last-modified";a:2:{i:0;i:1371055050;i:1;a:2:{s:6:"offset";i:10800;s:6:"is_dst";b:0;}}s:10:"reply-time";a:2:{i:0;i:1371120303;i:1;a:2:{s:6:"offset";i:10800;s:6:"is_dst";b:0;}}s:19:"reply-last-modified";a:2:{i:0;i:1371120303;i:1;a:2:{s:6:"offset";i:10800;s:6:"is_dst";b:0;}}s:4:"text";s:157:"<p>Опечатка?<br />
+но уже к концу ХХ века почти вся была застроена домами аристократов</p>
+";s:9:"replying?";b:0;s:8:"replied?";b:1;s:5:"reply";s:40:"<p>опечатка)спасибо)</p>
+";s:1:"_";a:3:{s:3:"_id";s:2:"59";s:4:"_ord";i:0;s:8:"_ord_max";i:0;}}}

@@ -1,0 +1,27 @@
+html								{ overflow-y:scroll; }
+.index-header					{ position: absolute; top: 0; left: 0; right: 0; height: 130px; z-index: 20; background: url('/user/extras/index-header-bg.png'); }
+
+/* Thumbs */
+	.index-thumbnails			{ margin: 30px 0 30px 0px; overflow: hidden; }
+	.index-thumbnails ul			{ margin: -50px 0 0 -50px; padding: 0; }
+	.index-thumbnails ul li		{ margin:  30px 0 0 50px; height: 260px; padding: 0 0 0; display: block; float: left; width: 200px; list-style-type: none; behavior: none; text-align: center; text-indent: 0; }
+	.index-thumbnails ul li:before	{ display: none; }
+	.index-thumbnails ul li.first	{ }
+	.index-thumbnails ul li a		{ display: block; }
+
+	.index-content				{ position: relative; }
+	.index-content-left			{ float: left; width: auto; margin-right: 350px; }
+	.index-content-right		{ float: right; width: 300px; position: absolute; top: 0; right: 0; }
+
+/* News */
+	.index-news					{  }
+	.index-news ul				{ margin: 0; padding: 0; }
+	.index-news ul li				{ text-indent: 0; margin: 10px 0 0; }
+	.index-news ul li.first		{ margin-top: 0; }
+	.index-news ul li:before		{ display: none; }
+	
+/* Fotorama on Header */
+	.index-fotorama						{ height: 700px; z-index: 10; }
+	.index-fotorama .caption				{ position:absolute; bottom:20px; left:0; margin-left: 3%; font-size:16px; color:#fff; }
+	.index-fotorama .caption__title,
+	.index-fotorama .caption__location	{ display:inline-block; padding:2px 6px; line-height:19px; background:#111; background:hsla(0,0%,0%,.9); }

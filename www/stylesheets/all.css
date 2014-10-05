@@ -1,0 +1,580 @@
+/* ========== VARIABLES ========== */
+/* ========== BASE ========== */
+/* line 13, all.css.scss */
+
+@font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: bold;
+    src: local('PT Sans Bold'), local('PTSans-Bold'), url('/themes/spacious/fonts/PTSans-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PT Sans'), local('PTSans-Regular'), url('/themes/spacious/fonts/PTSans-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: bold;
+    src: local('PT Serif Bold'), local('PTSerif-Bold'), url('/themes/spacious/fonts/PTSerif-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PT Serif'), local('PTSerif-Regular'), url('/themes/spacious/fonts/PTSerif-Regular.woff') format('woff');
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+}
+
+a.panorama {
+    font-family: "PT Serif";
+    color: white;
+    text-decoration: none;
+}
+
+a.panorama:hover {
+    color: #fffecb;
+}
+
+a.panorama .mini-text {
+    font-size: 50%;
+    background: #000;
+    padding: 4px 10px;
+    border-radius: 4px;
+    position: relative;
+    top: -5px;
+    color: #fff;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+/* line 17, all.css.scss */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* line 23, all.css.scss */
+p {
+    margin: 0;
+}
+
+/* line 27, all.css.scss */
+h1 {
+    font-size: 1em;
+    margin: 30px 0 0;
+}
+
+/* line 32, all.css.scss */
+h3 {
+    margin: 5px 0 0px 0;
+    font-size: 0.75em;
+    font-weight: 600;
+}
+
+/* line 37, all.css.scss */
+h3 a {
+    color: #999;
+    text-decoration: underline;
+}
+
+/* line 42, all.css.scss */
+h3 a:hover, h3 a:focus {
+    color: #1d82c2;
+    text-decoration: underline;
+}
+
+a h3 {
+    color: #25408f;
+    text-decoration: underline;
+}
+
+/* line 42, all.css.scss */
+a:hover h3, a:focus h3 {
+    color: #1b75bc;
+    text-decoration: underline;
+}
+
+/* line 49, all.css.scss */
+.fb-like {
+    min-height: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    /* line 54, all.css.scss */
+    h1 {
+        margin: 22px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* line 60, all.css.scss */
+    h1 {
+        margin: 0 0 10px;
+        font-size: 2em;
+    }
+
+    /* line 64, all.css.scss */
+    h1 a {
+        margin: 10px auto !important;
+        position: relative;
+    }
+}
+
+/* ========== LAYOUT ========== */
+/* line 72, all.css.scss */
+#main-header {
+    width: 130px;
+    padding-left: 30px;
+    position: fixed;
+}
+
+/* line 78, all.css.scss */
+#main-content {
+    padding: 0 0 30px 160px;
+}
+
+/* line 82, all.css.scss */
+.main-footer {
+    width: 130px;
+    margin-top: 130px;
+    color: #999;
+    font-size: 0.7em;
+}
+
+/* line 88, all.css.scss */
+.main-footer a {
+    color: #25408f;
+    text-decoration: underline;
+    font-size: 1em;
+}
+
+/* line 94, all.css.scss */
+.main-footer a:hover, .main-footer a:focus {
+    color: #1b75bc;
+    text-decoration: underline;
+}
+
+/* line 100, all.css.scss */
+.main-footer p {
+    margin: 10px 0;
+}
+
+/* line 105, all.css.scss */
+#main-content + .main-footer {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    /* line 110, all.css.scss */
+    #main-header {
+        padding-left: 22px;
+    }
+
+    /* line 114, all.css.scss */
+    #main-content {
+        padding: 0 0 22px 152px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* line 120, all.css.scss */
+    #main-header {
+        width: 100%;
+        padding: 0;
+        float: none;
+        position: relative;
+        text-align: center;
+    }
+
+    /* line 127, all.css.scss */
+    #main-header .main-footer {
+        display: none;
+    }
+
+    /* line 132, all.css.scss */
+    #main-content {
+        padding: 0;
+        float: none;
+        position: relative;
+    }
+
+    /* line 138, all.css.scss */
+    .main-footer {
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    /* line 143, all.css.scss */
+    .main-footer p {
+        margin: 5px 0;
+    }
+
+    /* line 148, all.css.scss */
+    #main-content + .main-footer {
+        display: block;
+    }
+}
+
+/* ========== MODULE ========== */
+/* line 154, all.css.scss */
+#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+}
+
+/* line 160, all.css.scss */
+#logo {
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+/* line 165, all.css.scss */
+#logo img {
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* line 171, all.css.scss */
+#main-nav {
+    margin: 40px 0;
+}
+
+/* line 174, all.css.scss */
+#main-nav li {
+    margin-bottom: 5px;
+}
+
+/* line 178, all.css.scss */
+#main-nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+/* line 184, all.css.scss */
+#main-nav a:hover, #main-nav a:focus {
+    color: #1d82c2;
+    text-decoration: underline;
+}
+
+/* line 191, all.css.scss */
+#filter {
+    margin: 0 0 5px 0;
+    font-size: 0.8em;
+    font-family: inherit;
+}
+
+/* line 197, all.css.scss */
+#searchForm {
+    text-align: center;
+}
+
+/* line 201, all.css.scss */
+#search {
+    width: 220px;
+    margin: 30px 0 0;
+    -webkit-appearance: searchfield;
+    box-sizing: border-box;
+}
+
+/* line 208, all.css.scss */
+#social {
+    margin-top: 50px;
+}
+
+#social a{
+    color: #25408f;
+    text-decoration: underline;
+    font-size: 0.7em;
+}
+
+/* line 212, all.css.scss */
+#app-list {
+    overflow: hidden;
+}
+
+/* line 215, all.css.scss */
+#app-list .nothing {
+    font-size: 14px;
+    margin: 30px;
+    text-align: center;
+}
+
+/* line 220, all.css.scss */
+#app-list .nothing a {
+    color: #999;
+    text-decoration: none;
+}
+
+/* line 225, all.css.scss */
+#app-list .nothing a:hover, #app-list .nothing a:focus,
+#app-list .nothing a.hover {
+    color: #1d82c2;
+    text-decoration: underline;
+}
+
+/* line 233, all.css.scss */
+.app-category {
+    padding: 90px 0 15px 60px;
+    clear: both;
+    font-size: 0.8em;
+    font-weight: 500;
+    color: #111;
+}
+
+/* line 240, all.css.scss */
+.app-category:first-child {
+    padding-top: 30px;
+}
+
+/* line 244, all.css.scss */
+.app-category div {
+    background: #eee;
+    padding: 4px 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    width: intrinsic;
+}
+
+/* line 252, all.css.scss */
+.app-item {
+    display: block;
+    list-style-type: none;
+    height: 290px;
+    width: 256px;
+    margin: 22px 0 0 22px;
+    float: left;
+    line-height: 13px;
+    position: relative;
+    text-align: center;
+}
+
+/* line 259, all.css.scss */
+.app-item > a:first-child {
+    display: block;
+}
+
+.app-item a.hover {
+    color: #1d82c2;
+    text-decoration: underline;
+}
+
+/* line 264, all.css.scss */
+.developer {
+    font-size: 0.7em;
+    line-height: 0px;
+    color: #808285;
+    text-decoration: none;
+    margin: 0;
+    width: 256px;
+}
+
+/* line 272, all.css.scss */
+.developer:hover, .developer:focus {
+    color: #808285;
+    text-decoration: none;
+}
+
+/* line 278, all.css.scss */
+#cat-list {
+    margin-top: 10px;
+    display: none;
+}
+
+/* line 282, all.css.scss */
+#cat-list a {
+    color: #999;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+/* line 288, all.css.scss */
+#cat-list a:hover, #cat-list a:focus {
+    color: #1d82c2;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    /* line 296, all.css.scss */
+    .app-category {
+        padding: 60px 0 15px 30px;
+    }
+
+    /* line 300, all.css.scss */
+    .app-item {
+        display: block;
+        list-style-type: none;
+        width: 128px;
+        height: 180px;
+        margin: 22px 0 0 22px;
+    }
+
+    /* line 304, all.css.scss */
+    .app-item img {
+        width: 128px;
+        height: 128px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* line 313, all.css.scss */
+    #logo img {
+        margin: 0 auto 5px;
+    }
+
+    /* line 318, all.css.scss */
+    #main-nav {
+        width: intrinsic;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    /* line 323, all.css.scss */
+    #main-nav li {
+        margin: 0 12px 30px;
+        float: left;
+    }
+
+    /* line 329, all.css.scss */
+    #filter {
+        width: 250px;
+        height: 30px;
+    }
+
+    /* line 334, all.css.scss */
+    #social {
+        margin-top: 30px;
+    }
+
+    /* line 338, all.css.scss */
+    .app-category {
+        padding: 60px 0 0;
+    }
+
+    /* line 341, all.css.scss */
+    .app-category div {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* line 348, all.css.scss */
+    input[type="search"] {
+        width: 250px;
+        margin: 30px 0;
+    }
+
+    /* line 353, all.css.scss */
+    .app-item {
+        display: block;
+        list-style-type: none;
+        width: 128px;
+        margin: 22px 0 0 22px;
+    }
+
+    /* line 357, all.css.scss */
+    .app-item img {
+        width: 128px;
+        height: 128px;
+        border-radius: 6px;
+    }
+
+    /* line 363, all.css.scss */
+    #cat-list {
+        padding: 0 40px;
+        overflow: hidden;
+    }
+
+    /* line 367, all.css.scss */
+    #cat-list li {
+        margin-right: 15px;
+        float: left;
+    }
+}
+
+/* ========== STATE ========== */
+/* line 376, all.css.scss */
+#wufoo-z7x3p9 iframe {
+    max-height: 670px;
+}
+
+/* line 381, all.css.scss */
+#colophon {
+    width: 400px;
+    color: #666;
+}
+
+/* line 385, all.css.scss */
+#colophon h1 {
+    margin-bottom: 30px;
+    color: #111;
+}
+
+/* line 390, all.css.scss */
+#colophon h2 {
+    font-size: 0.9em;
+    color: #111;
+    font-weight: 600;
+    margin: 30px 0 10px;
+}
+
+/* line 397, all.css.scss */
+#colophon p {
+    font-size: 0.8em;
+    margin: 30px 0;
+}
+
+/* line 401, all.css.scss */
+#colophon p a {
+    color: #111;
+}
+
+/* line 405, all.css.scss */
+#colophon p a:hover {
+    text-decoration: underline;
+}
+
+/* line 410, all.css.scss */
+#colophon ul {
+    list-style-type: circle;
+}
+
+/* line 414, all.css.scss */
+#colophon li {
+    margin-left: 20px;
+    font-size: 0.8em;
+}
+
+/* line 418, all.css.scss */
+#colophon li a {
+    color: #111;
+    text-decoration: none;
+}
+
+/* line 422, all.css.scss */
+#colophon li a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    /* line 430, all.css.scss */
+    #wufoo-z7x3p9 iframe {
+        max-height: 830px;
+    }
+}

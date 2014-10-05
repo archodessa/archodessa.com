@@ -1,0 +1,952 @@
+B 0.00624    System: loaded
+B 0.00719    
+B 0.00732    System: go
+B 0.00756    Files: Prepage to scale images for template <spacious : 1000>
+B 0.00761    Files: Done preparing to scale images
+B 0.00765    System: resolve url <all/gogolya-12/>
+B 0.00976    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'gogolya-12' ORDER BY Stamp LIMIT 1>
+Z 0.00331    System: loaded
+Z 0.00423    
+Z 0.00435    System: go
+Z 0.00461    Files: Prepage to scale images for template <spacious : 1000>
+Z 0.00466    Files: Done preparing to scale images
+Z 0.00469    System: resolve url <all/gogolya-12/>
+Z 0.00675    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'gogolya-12' ORDER BY Stamp LIMIT 1>
+Z 0.00606    System: loaded
+Z 0.00714    
+Z 0.00735    System: go
+Z 0.0077     Files: Prepage to scale images for template <spacious : 1000>
+Z 0.00783    Files: Done preparing to scale images
+Z 0.00794    System: resolve url <settings/>
+Z 0.01045    System: candy <e2m_settings>
+Z 0.01061    Installer: making sure that engine is installed
+Z 0.01073    Installer: done
+Z 0.01099    System: signed in? 1
+Z 0.01125    System: candy call
+Z 0.01214    System: candy return
+Z 0.0123     System: nav and pages
+Z 0.0125     System: search form
+Z 0.01268    System: blog information
+Z 0.01528    System: edge timeinfo
+Z 0.01561    System: stuff for logged in user
+Z 0.01824    DB: query <SELECT `NoteID`, `Text` FROM `arch_Comments` WHERE `IsNew`=1 ORDER BY `Stamp`>
+A 0.00611    System: loaded
+A 0.00729    
+A 0.00753    System: go
+A 0.00786    Files: Prepage to scale images for template <spacious : 1000>
+A 0.00799    Files: Done preparing to scale images
+A 0.00809    System: resolve url <settings/database/>
+A 0.01057    System: candy <e2m_database>
+A 0.01073    Installer: making sure that engine is installed
+A 0.01084    Installer: done
+A 0.01109    System: signed in? 1
+A 0.01139    System: candy call
+A 0.01161    System: candy return
+A 0.01172    System: nav and pages
+A 0.0119     System: search form
+A 0.01206    System: blog information
+A 0.01474    System: edge timeinfo
+A 0.01506    System: stuff for logged in user
+A 0.01767    DB: query <SELECT `NoteID`, `Text` FROM `arch_Comments` WHERE `IsNew`=1 ORDER BY `Stamp`>
+R 0.00602    System: loaded
+R 0.0071     
+R 0.00732    System: go
+R 0.00765    Files: Prepage to scale images for template <spacious : 1000>
+R 0.00778    Files: Done preparing to scale images
+R 0.00788    System: resolve url <settings/database/>
+R 0.0104     System: candy <e2m_database>
+R 0.01056    Installer: making sure that engine is installed
+R 0.01067    Installer: done
+R 0.01093    System: signed in? 1
+R 0.01119    System: candy call
+R 0.0114     System: candy return
+R 0.01151    System: nav and pages
+R 0.01169    System: search form
+R 0.01185    System: blog information
+R 0.01454    System: edge timeinfo
+R 0.01487    System: stuff for logged in user
+R 0.01744    DB: query <SELECT `NoteID`, `Text` FROM `arch_Comments` WHERE `IsNew`=1 ORDER BY `Stamp`>
+N 0.00612    System: loaded
+N 0.00723    
+N 0.00745    System: go
+N 0.00779    Files: Prepage to scale images for template <spacious : 1000>
+N 0.00795    Files: Done preparing to scale images
+N 0.00807    System: resolve url <settings/database/>
+N 0.01058    System: candy <e2m_database>
+N 0.01074    Installer: making sure that engine is installed
+N 0.01085    Installer: done
+N 0.0111     System: signed in? 1
+N 0.01136    System: candy call
+N 0.01158    System: candy return
+N 0.01169    System: nav and pages
+N 0.01187    System: search form
+N 0.01206    System: blog information
+N 0.01475    System: edge timeinfo
+N 0.01506    System: stuff for logged in user
+N 0.0177     DB: query <SELECT `NoteID`, `Text` FROM `arch_Comments` WHERE `IsNew`=1 ORDER BY `Stamp`>
+X 0.00235    System: loaded
+X 0.00322    
+X 0.00343    System: go
+X 0.00371    Files: Prepage to scale images for template <spacious : 1000>
+X 0.00383    Files: Done preparing to scale images
+X 0.00394    System: resolve url <settings/database/>
+X 0.00587    System: candy <e2m_database>
+X 0.00602    Installer: making sure that engine is installed
+X 0.00616    Installer: done
+X 0.00637    System: signed in? 1
+X 0.0066     System: candy call
+X 0.0068     System: candy return
+X 0.00689    System: nav and pages
+X 0.00707    System: search form
+X 0.00724    System: blog information
+X 0.00964    System: edge timeinfo
+X 0.00987    System: stuff for logged in user
+X 0.01238    DB: query <SELECT `NoteID`, `Text` FROM `arch_Comments` WHERE `IsNew`=1 ORDER BY `Stamp`>
+F 0.00333    System: loaded
+F 0.00441    
+F 0.00461    System: go
+F 0.00495    Files: Prepage to scale images for template <spacious : 1000>
+F 0.00508    Files: Done preparing to scale images
+F 0.00518    System: resolve url <all/nezhinskaya-16/>
+F 0.00736    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'nezhinskaya-16' ORDER BY Stamp LIMIT 1>
+I 0.00238    System: loaded
+I 0.00361    
+I 0.00386    System: go
+I 0.00427    Files: Prepage to scale images for template <spacious : 1000>
+I 0.00444    Files: Done preparing to scale images
+I 0.00457    System: resolve url <settings/>
+I 0.00661    System: candy <e2m_settings>
+I 0.00685    Installer: making sure that engine is installed
+I 0.00725    Installer: done
+I 0.00753    System: signed in? 1
+I 0.0078     System: candy call
+I 0.00884    System: candy return
+I 0.00897    System: nav and pages
+I 0.00918    System: search form
+I 0.00936    System: blog information
+I 0.01216    System: edge timeinfo
+I 0.0124     System: stuff for logged in user
+I 0.01493    DB: query <SELECT `NoteID`, `Text` FROM `arch_Comments` WHERE `IsNew`=1 ORDER BY `Stamp`>
+C 0.00223    System: loaded
+C 0.00312    
+C 0.00333    System: go
+C 0.00362    Files: Prepage to scale images for template <spacious : 1000>
+C 0.00374    Files: Done preparing to scale images
+C 0.00417    System: resolve url <settings/database/>
+C 0.01161    System: candy <e2m_database>
+C 0.01213    Installer: making sure that engine is installed
+C 0.01252    Installer: done
+C 0.01338    System: signed in? 1
+C 0.01435    System: candy call
+C 0.01513    System: candy return
+C 0.01548    System: nav and pages
+C 0.01616    System: search form
+C 0.0168     System: blog information
+C 0.02534    System: edge timeinfo
+C 0.02561    System: stuff for logged in user
+C 0.02811    DB: query <SELECT `NoteID`, `Text` FROM `arch_Comments` WHERE `IsNew`=1 ORDER BY `Stamp`>
+A 0.00238    System: loaded
+A 0.0033     
+A 0.00352    System: go
+A 0.00385    Files: Prepage to scale images for template <spacious : 1000>
+A 0.00399    Files: Done preparing to scale images
+A 0.00409    System: resolve url <settings/database/>
+A 0.00602    System: candy <e2m_database>
+A 0.00617    Installer: making sure that engine is installed
+A 0.00627    Installer: done
+A 0.00649    System: signed in? 1
+A 0.00673    System: candy call
+A 0.00693    System: candy return
+A 0.00702    System: nav and pages
+A 0.0072     System: search form
+A 0.00739    System: blog information
+A 0.00985    System: edge timeinfo
+A 0.0101     System: stuff for logged in user
+A 0.0127     DB: query <SELECT `NoteID`, `Text` FROM `arch_Comments` WHERE `IsNew`=1 ORDER BY `Stamp`>
+I 0.00244    System: loaded
+I 0.0031     
+I 0.00321    System: go
+I 0.00342    Files: Prepage to scale images for template <spacious : 1000>
+I 0.00346    Files: Done preparing to scale images
+I 0.0035     System: resolve url <settings/database/>
+I 0.00542    System: candy <e2m_database>
+I 0.00548    Installer: making sure that engine is installed
+I 0.00552    Installer: done
+I 0.00573    System: signed in? 1
+I 0.00591    System: candy call
+I 0.00607    System: candy return
+I 0.00614    System: nav and pages
+I 0.0063     System: search form
+I 0.00642    System: blog information
+I 0.00894    System: edge timeinfo
+I 0.00916    System: stuff for logged in user
+I 0.01166    DB: query <SELECT `NoteID`, `Text` FROM `arch_Comments` WHERE `IsNew`=1 ORDER BY `Stamp`>
+Z 0.00234    System: loaded
+Z 0.0032     
+Z 0.00341    System: go
+Z 0.00372    Files: Prepage to scale images for template <spacious : 1000>
+Z 0.00387    Files: Done preparing to scale images
+Z 0.00398    System: resolve url <all/nezhinskaya-52/>
+Z 0.0056     DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'nezhinskaya-52' ORDER BY Stamp LIMIT 1>
+V 0.00237    System: loaded
+V 0.00321    
+V 0.00342    System: go
+V 0.00371    Files: Prepage to scale images for template <spacious : 1000>
+V 0.00384    Files: Done preparing to scale images
+V 0.00395    System: resolve url <all/nezhinskaya-52/>
+V 0.00556    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'nezhinskaya-52' ORDER BY Stamp LIMIT 1>
+F 0.00229    System: loaded
+F 0.00312    
+F 0.00333    System: go
+F 0.00364    Files: Prepage to scale images for template <spacious : 1000>
+F 0.00377    Files: Done preparing to scale images
+F 0.00388    System: resolve url <all/nezhinskaya-52/>
+F 0.00548    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'nezhinskaya-52' ORDER BY Stamp LIMIT 1>
+Q 0.00232    System: loaded
+Q 0.00317    
+Q 0.00337    System: go
+Q 0.00367    Files: Prepage to scale images for template <spacious : 1000>
+Q 0.0038     Files: Done preparing to scale images
+Q 0.0039     System: resolve url <all/nezhinskaya-52/>
+Q 0.00553    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'nezhinskaya-52' ORDER BY Stamp LIMIT 1>
+P 0.00617    System: loaded
+P 0.00733    
+P 0.00757    System: go
+P 0.00797    Files: Prepage to scale images for template <spacious : 1000>
+P 0.00811    Files: Done preparing to scale images
+P 0.00821    System: resolve url <settings/>
+P 0.01072    System: candy <e2m_settings>
+P 0.01087    Installer: making sure that engine is installed
+P 0.01098    Installer: done
+P 0.01126    System: signed in? 1
+P 0.01153    System: candy call
+P 0.01248    System: candy return
+P 0.01261    System: nav and pages
+P 0.0128     System: search form
+P 0.01297    System: blog information
+P 0.01567    System: edge timeinfo
+P 0.01605    System: stuff for logged in user
+P 0.01863    DB: query <SELECT `NoteID`, `Text` FROM `arch_Comments` WHERE `IsNew`=1 ORDER BY `Stamp`>
+Y 0.00622    System: loaded
+Y 0.0073     
+Y 0.00749    System: go
+Y 0.00811    Files: Prepage to scale images for template <spacious : 1000>
+Y 0.00826    Files: Done preparing to scale images
+Y 0.00834    System: resolve url <settings/>
+Y 0.01082    System: candy <e2m_settings>
+Y 0.01094    Installer: making sure that engine is installed
+Y 0.01102    Installer: done
+Y 0.01126    System: signed in? 1
+Y 0.01149    System: candy call
+Y 0.01244    System: candy return
+Y 0.01258    System: nav and pages
+Y 0.01277    System: search form
+Y 0.01294    System: blog information
+Y 0.01561    System: edge timeinfo
+Y 0.01593    System: stuff for logged in user
+Y 0.01855    DB: query <SELECT `NoteID`, `Text` FROM `arch_Comments` WHERE `IsNew`=1 ORDER BY `Stamp`>
+E 0.00614    System: loaded
+E 0.00707    
+E 0.00719    System: go
+E 0.00745    Files: Prepage to scale images for template <spacious : 1000>
+E 0.00749    Files: Done preparing to scale images
+E 0.00753    System: resolve url <settings/>
+E 0.00993    System: candy <e2m_settings>
+E 0.00999    Installer: making sure that engine is installed
+E 0.01004    Installer: done
+E 0.01025    System: signed in? 1
+E 0.01043    System: candy call
+E 0.01124    System: candy return
+E 0.0113     System: nav and pages
+E 0.01145    System: search form
+E 0.01157    System: blog information
+E 0.01418    System: edge timeinfo
+E 0.01443    System: stuff for logged in user
+E 0.01696    DB: query <SELECT `NoteID`, `Text` FROM `arch_Comments` WHERE `IsNew`=1 ORDER BY `Stamp`>
+V 0.00615    System: loaded
+V 0.0073     
+V 0.00752    System: go
+V 0.00787    Files: Prepage to scale images for template <spacious : 1000>
+V 0.008      Files: Done preparing to scale images
+V 0.0081     System: resolve url <settings/>
+V 0.01061    System: candy <e2m_settings>
+V 0.01077    Installer: making sure that engine is installed
+V 0.01087    Installer: done
+V 0.01112    System: signed in? 1
+V 0.01136    System: candy call
+V 0.01224    System: candy return
+V 0.01237    System: nav and pages
+V 0.01256    System: search form
+V 0.01273    System: blog information
+V 0.01539    System: edge timeinfo
+V 0.01571    System: stuff for logged in user
+V 0.01836    DB: query <SELECT `NoteID`, `Text` FROM `arch_Comments` WHERE `IsNew`=1 ORDER BY `Stamp`>
+P 0.00572    System: loaded
+P 0.00661    
+P 0.00673    System: go
+P 0.00696    Files: Prepage to scale images for template <spacious : 1000>
+P 0.007      Files: Done preparing to scale images
+P 0.00703    System: resolve url <settings/>
+P 0.0094     System: candy <e2m_settings>
+P 0.00945    Installer: making sure that engine is installed
+P 0.00948    Installer: done
+P 0.00965    System: signed in? 1
+P 0.00983    System: candy call
+P 0.01062    System: candy return
+P 0.01068    System: nav and pages
+P 0.01082    System: search form
+P 0.01092    System: blog information
+P 0.01349    System: edge timeinfo
+P 0.01374    System: stuff for logged in user
+P 0.01626    DB: query <SELECT `NoteID`, `Text` FROM `arch_Comments` WHERE `IsNew`=1 ORDER BY `Stamp`>
+L 0.00267    System: loaded
+L 0.00333    
+L 0.00345    System: go
+L 0.00364    Files: Prepage to scale images for template <spacious : 1000>
+L 0.00368    Files: Done preparing to scale images
+L 0.00371    System: resolve url <settings/>
+L 0.00557    System: candy <e2m_settings>
+L 0.00562    Installer: making sure that engine is installed
+L 0.00565    Installer: done
+L 0.00578    System: signed in? 1
+L 0.00592    System: candy call
+L 0.00661    System: candy return
+L 0.00666    System: nav and pages
+L 0.00678    System: search form
+L 0.00689    System: blog information
+L 0.00917    System: edge timeinfo
+L 0.00934    System: stuff for logged in user
+L 0.01179    DB: query <SELECT `NoteID`, `Text` FROM `arch_Comments` WHERE `IsNew`=1 ORDER BY `Stamp`>
+O 0.00219    System: loaded
+O 0.00282    
+O 0.00292    System: go
+O 0.0031     Files: Prepage to scale images for template <spacious : 1000>
+O 0.00314    Files: Done preparing to scale images
+O 0.00316    System: resolve url <all/gogolya-12/>
+O 0.00474    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'gogolya-12' ORDER BY Stamp LIMIT 1>
+T 0.00216    System: loaded
+T 0.00279    
+T 0.00289    System: go
+T 0.00307    Files: Prepage to scale images for template <spacious : 1000>
+T 0.00311    Files: Done preparing to scale images
+T 0.00313    System: resolve url <all/gogolya-12/>
+T 0.00468    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'gogolya-12' ORDER BY Stamp LIMIT 1>
+G 0.00547    System: loaded
+G 0.0065     
+G 0.00672    System: go
+G 0.00705    Files: Prepage to scale images for template <spacious : 1000>
+G 0.00717    Files: Done preparing to scale images
+G 0.00726    System: resolve url <all/gogolya-12/>
+G 0.00934    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'gogolya-12' ORDER BY Stamp LIMIT 1>
+W 0.00567    System: loaded
+W 0.00672    
+W 0.00694    System: go
+W 0.00726    Files: Prepage to scale images for template <spacious : 1000>
+W 0.00737    Files: Done preparing to scale images
+W 0.00746    System: resolve url <settings/database/>
+W 0.00987    System: candy <e2m_database>
+W 0.01002    Installer: making sure that engine is installed
+W 0.01013    Installer: done
+W 0.01036    System: signed in? 1
+W 0.01061    System: candy call
+W 0.01082    System: candy return
+W 0.01092    System: nav and pages
+W 0.01109    System: search form
+W 0.01124    System: blog information
+W 0.01391    System: edge timeinfo
+W 0.01423    System: stuff for logged in user
+W 0.01684    DB: query <SELECT `NoteID`, `Text` FROM `arch_Comments` WHERE `IsNew`=1 ORDER BY `Stamp`>
+S 0.00221    System: loaded
+S 0.00317    
+S 0.0034     System: go
+S 0.00369    Files: Prepage to scale images for template <spacious : 1000>
+S 0.00382    Files: Done preparing to scale images
+S 0.00391    System: resolve url <settings/database/>
+S 0.00584    System: candy <e2m_database>
+S 0.00598    Installer: making sure that engine is installed
+S 0.00607    Installer: done
+S 0.00627    System: signed in? 1
+S 0.0065     System: candy call
+S 0.0067     System: candy return
+S 0.00678    System: nav and pages
+S 0.00694    System: search form
+S 0.00712    System: blog information
+S 0.00944    System: edge timeinfo
+S 0.00966    System: stuff for logged in user
+S 0.01224    DB: query <SELECT `NoteID`, `Text` FROM `arch_Comments` WHERE `IsNew`=1 ORDER BY `Stamp`>
+I 0.00219    System: loaded
+I 0.00302    
+I 0.00322    System: go
+I 0.0035     Files: Prepage to scale images for template <spacious : 1000>
+I 0.00362    Files: Done preparing to scale images
+I 0.0037     System: resolve url <settings/database/>
+I 0.00563    System: candy <e2m_database>
+I 0.00576    Installer: making sure that engine is installed
+I 0.00584    Installer: done
+I 0.00603    System: signed in? 1
+I 0.00625    System: candy call
+I 0.00643    System: candy return
+I 0.00651    System: nav and pages
+I 0.00667    System: search form
+I 0.00682    System: blog information
+I 0.00916    System: edge timeinfo
+I 0.00942    System: stuff for logged in user
+I 0.01193    DB: query <SELECT `NoteID`, `Text` FROM `arch_Comments` WHERE `IsNew`=1 ORDER BY `Stamp`>
+A 0.00213    System: loaded
+A 0.00299    
+A 0.00319    System: go
+A 0.00349    Files: Prepage to scale images for template <spacious : 1000>
+A 0.00361    Files: Done preparing to scale images
+A 0.0037     System: resolve url <all/sofievskaya-23/>
+A 0.0053     DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+S 0.00241    System: loaded
+S 0.00329    
+S 0.00351    System: go
+S 0.0038     Files: Prepage to scale images for template <spacious : 1000>
+S 0.00392    Files: Done preparing to scale images
+S 0.00401    System: resolve url <settings/>
+S 0.00595    System: candy <e2m_settings>
+S 0.00609    Installer: making sure that engine is installed
+S 0.00618    Installer: done
+S 0.00638    System: signed in? 1
+S 0.0066     System: candy call
+S 0.00737    System: candy return
+S 0.00748    System: nav and pages
+S 0.00765    System: search form
+S 0.00781    System: blog information
+S 0.01017    System: edge timeinfo
+S 0.0104     System: stuff for logged in user
+S 0.01296    DB: query <SELECT `NoteID`, `Text` FROM `arch_Comments` WHERE `IsNew`=1 ORDER BY `Stamp`>
+C 0.00211    System: loaded
+C 0.00294    
+C 0.00315    System: go
+C 0.0034     Files: Prepage to scale images for template <spacious : 1000>
+C 0.00348    Files: Done preparing to scale images
+C 0.00355    System: resolve url <settings/>
+C 0.00541    System: candy <e2m_settings>
+C 0.0055     Installer: making sure that engine is installed
+C 0.00556    Installer: done
+C 0.00574    System: signed in? 1
+C 0.00593    System: candy call
+C 0.00668    System: candy return
+C 0.00679    System: nav and pages
+C 0.00696    System: search form
+C 0.00716    System: blog information
+C 0.00944    System: edge timeinfo
+C 0.00967    System: stuff for logged in user
+C 0.01221    DB: query <SELECT `NoteID`, `Text` FROM `arch_Comments` WHERE `IsNew`=1 ORDER BY `Stamp`>
+C 0.00234    System: loaded
+C 0.0032     
+C 0.0034     System: go
+C 0.00365    Files: Prepage to scale images for template <spacious : 1000>
+C 0.00374    Files: Done preparing to scale images
+C 0.0038     System: resolve url <all/sofievskaya-23/>
+C 0.00389    AAAAAAAAAAAAa
+C 0.00546    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+I 0.00225    System: loaded
+I 0.00308    
+I 0.00324    System: go
+I 0.00349    Files: Prepage to scale images for template <spacious : 1000>
+I 0.00358    Files: Done preparing to scale images
+I 0.00364    AAAAAAAAAAAAa
+I 0.0037     System: resolve url <all/sofievskaya-23/>
+I 0.00528    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+X 0.00237    System: loaded
+X 0.00324    
+X 0.00346    System: go
+X 0.00375    Files: Prepage to scale images for template <spacious : 1000>
+X 0.00387    Files: Done preparing to scale images
+X 0.00395    System: resolve url <all/sofievskaya-23/>
+X 0.00406    AAAAAAAAAAAAa
+X 0.00571    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+C 0.00559    System: loaded
+C 0.00665    
+C 0.00686    System: go
+C 0.00718    Files: Prepage to scale images for template <spacious : 1000>
+C 0.0073     Files: Done preparing to scale images
+C 0.00741    System: resolve url <all/sofievskaya-23/>
+C 0.00948    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+C 0.00239    System: loaded
+C 0.00329    
+C 0.00352    System: go
+C 0.00382    Files: Prepage to scale images for template <spacious : 1000>
+C 0.00397    Files: Done preparing to scale images
+C 0.00407    System: resolve url <all/sofievskaya-23/>
+C 0.00573    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+Q 0.00219    System: loaded
+Q 0.00307    
+Q 0.00331    System: go
+Q 0.00359    Files: Prepage to scale images for template <spacious : 1000>
+Q 0.00371    Files: Done preparing to scale images
+Q 0.00379    System: resolve url <all/sofievskaya-23/>
+Q 0.00539    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+O 0.00217    System: loaded
+O 0.00303    
+O 0.00324    System: go
+O 0.00354    Files: Prepage to scale images for template <spacious : 1000>
+O 0.00366    Files: Done preparing to scale images
+O 0.00375    System: resolve url <all/sofievskaya-23/>
+O 0.00532    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+L 0.00504    System: loaded
+L 0.00587    
+L 0.00607    System: go
+L 0.00634    Files: Prepage to scale images for template <spacious : 1000>
+L 0.00646    Files: Done preparing to scale images
+L 0.00655    System: resolve url <all/sofievskaya-23/>
+L 0.0086     DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+D 0.00202    System: loaded
+D 0.00281    
+D 0.00302    System: go
+D 0.00328    Files: Prepage to scale images for template <spacious : 1000>
+D 0.00341    Files: Done preparing to scale images
+D 0.00348    System: resolve url <all/sofievskaya-23/>
+D 0.00508    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+L 0.00506    System: loaded
+L 0.00594    
+L 0.00617    System: go
+L 0.00646    Files: Prepage to scale images for template <spacious : 1000>
+L 0.00658    Files: Done preparing to scale images
+L 0.00667    System: resolve url <all/sofievskaya-23/>
+L 0.00678    AAAAAAAAAAAAa
+L 0.00875    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+R 0.00208    System: loaded
+R 0.00289    
+R 0.00309    System: go
+R 0.00335    Files: Prepage to scale images for template <spacious : 1000>
+R 0.00347    Files: Done preparing to scale images
+R 0.00355    System: resolve url <all/sofievskaya-23/>
+R 0.00367    AAAAAAAAAAAAa
+R 0.00528    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+S 0.00238    System: loaded
+S 0.00326    
+S 0.00346    System: go
+S 0.00375    Files: Prepage to scale images for template <spacious : 1000>
+S 0.00387    Files: Done preparing to scale images
+S 0.00395    System: resolve url <all/sofievskaya-23/>
+S 0.00555    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+Y 0.00232    System: loaded
+Y 0.00321    
+Y 0.00342    System: go
+Y 0.00372    Files: Prepage to scale images for template <spacious : 1000>
+Y 0.00385    Files: Done preparing to scale images
+Y 0.00392    System: resolve url <all/sofievskaya-23/>
+Y 0.00555    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+T 0.00235    System: loaded
+T 0.00319    
+T 0.0034     System: go
+T 0.0037     Files: Prepage to scale images for template <spacious : 1000>
+T 0.00382    Files: Done preparing to scale images
+T 0.00391    System: resolve url <all/sofievskaya-23/>
+T 0.00546    AAAAAAAAAAAAa
+T 0.00563    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+P 0.00225    System: loaded
+P 0.00309    
+P 0.00329    System: go
+P 0.00359    Files: Prepage to scale images for template <spacious : 1000>
+P 0.00371    Files: Done preparing to scale images
+P 0.0038     System: resolve url <all/sofievskaya-23/>
+P 0.00534    AAAAAAAAAAAAa
+P 0.00551    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+Y 0.00542    System: loaded
+Y 0.00646    
+Y 0.00668    System: go
+Y 0.00702    Files: Prepage to scale images for template <spacious : 1000>
+Y 0.00715    Files: Done preparing to scale images
+Y 0.00723    System: resolve url <all/sofievskaya-23/>
+Y 0.0093     DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+M 0.00785    System: loaded
+M 0.00911    
+M 0.00935    System: go
+M 0.00963    Files: Prepage to scale images for template <spacious : 1000>
+M 0.00975    Files: Done preparing to scale images
+M 0.00984    System: resolve url <all/sofievskaya-23/>
+M 0.01145    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+U 0.00743    System: loaded
+U 0.00833    
+U 0.00855    System: go
+U 0.00883    Files: Prepage to scale images for template <spacious : 1000>
+U 0.00895    Files: Done preparing to scale images
+U 0.00903    System: resolve url <all/sofievskaya-23/>
+U 0.01059    AAAAAAAAAAAAa
+U 0.01073    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+F 0.0021     System: loaded
+F 0.003      
+F 0.00321    System: go
+F 0.00353    Files: Prepage to scale images for template <spacious : 1000>
+F 0.00365    Files: Done preparing to scale images
+F 0.00373    System: resolve url <all/sofievskaya-23/>
+F 0.00527    AAAAAAAAAAAAa
+F 0.00541    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+U 0.00222    System: loaded
+U 0.00305    
+U 0.00325    System: go
+U 0.00354    Files: Prepage to scale images for template <spacious : 1000>
+U 0.00366    Files: Done preparing to scale images
+U 0.00374    System: resolve url <all/sofievskaya-23/>
+U 0.00533    AAAAAAAAAAAAa
+U 0.00546    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+A 0.0022     System: loaded
+A 0.00304    
+A 0.00323    System: go
+A 0.0035     Files: Prepage to scale images for template <spacious : 1000>
+A 0.00362    Files: Done preparing to scale images
+A 0.00371    System: resolve url <all/sofievskaya-23/>
+A 0.00531    AAAAAAAAAAAAa
+A 0.00546    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+G 0.00216    System: loaded
+G 0.00303    
+G 0.00323    System: go
+G 0.0035     Files: Prepage to scale images for template <spacious : 1000>
+G 0.00362    Files: Done preparing to scale images
+G 0.00371    System: resolve url <all/sofievskaya-23/>
+G 0.00526    AAAAAAAAAAAAa
+G 0.00539    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+B 0.00215    System: loaded
+B 0.00303    
+B 0.00323    System: go
+B 0.00356    Files: Prepage to scale images for template <spacious : 1000>
+B 0.00368    Files: Done preparing to scale images
+B 0.00376    System: resolve url <all/sofievskaya-23/>
+B 0.00534    AAAAAAAAAAAAa
+B 0.00547    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+B 0.0021     System: loaded
+B 0.0029     
+B 0.00312    System: go
+B 0.00339    Files: Prepage to scale images for template <spacious : 1000>
+B 0.00351    Files: Done preparing to scale images
+B 0.00359    System: resolve url <all/sofievskaya-23/>
+B 0.00516    AAAAAAAAAAAAa
+B 0.0053     DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+O 0.00227    System: loaded
+O 0.00309    
+O 0.00329    System: go
+O 0.00357    Files: Prepage to scale images for template <spacious : 1000>
+O 0.00369    Files: Done preparing to scale images
+O 0.00378    System: resolve url <all/sofievskaya-23/>
+O 0.00535    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+H 0.00223    System: loaded
+H 0.00304    
+H 0.00326    System: go
+H 0.00353    Files: Prepage to scale images for template <spacious : 1000>
+H 0.00362    Files: Done preparing to scale images
+H 0.00369    System: resolve url <all/sofievskaya-23/>
+H 0.00527    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+V 0.00223    System: loaded
+V 0.00304    
+V 0.00324    System: go
+V 0.0035     Files: Prepage to scale images for template <spacious : 1000>
+V 0.00359    Files: Done preparing to scale images
+V 0.00366    System: resolve url <all/sofievskaya-23/>
+V 0.00521    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+K 0.00218    System: loaded
+K 0.00301    
+K 0.00323    System: go
+K 0.00353    Files: Prepage to scale images for template <spacious : 1000>
+K 0.00365    Files: Done preparing to scale images
+K 0.00374    System: resolve url <all/sofievskaya-23/>
+K 0.00531    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+L 0.00214    System: loaded
+L 0.00293    
+L 0.00314    System: go
+L 0.0034     Files: Prepage to scale images for template <spacious : 1000>
+L 0.00352    Files: Done preparing to scale images
+L 0.0036     System: resolve url <all/sofievskaya-23/>
+L 0.00523    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+T 0.00233    System: loaded
+T 0.0032     
+T 0.00341    System: go
+T 0.00369    Files: Prepage to scale images for template <spacious : 1000>
+T 0.00381    Files: Done preparing to scale images
+T 0.00389    System: resolve url <all/sofievskaya-23/>
+T 0.00548    AAAAAAAAAAAAa
+T 0.00561    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+W 0.00216    System: loaded
+W 0.00299    
+W 0.00322    System: go
+W 0.0035     Files: Prepage to scale images for template <spacious : 1000>
+W 0.00362    Files: Done preparing to scale images
+W 0.00373    System: resolve url <all/sofievskaya-23/>
+W 0.0053     AAAAAAAAAAAAa
+W 0.00544    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+Y 0.00204    System: loaded
+Y 0.00284    
+Y 0.00303    System: go
+Y 0.00329    Files: Prepage to scale images for template <spacious : 1000>
+Y 0.00341    Files: Done preparing to scale images
+Y 0.0035     System: resolve url <all/sofievskaya-23/>
+Y 0.00508    AAAAAAAAAAAAa
+Y 0.00522    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+I 0.00761    System: loaded
+I 0.01032    
+I 0.01098    System: go
+I 0.01184    Files: Prepage to scale images for template <spacious : 1000>
+I 0.01224    Files: Done preparing to scale images
+I 0.01256    System: resolve url <all/sofievskaya-23/>
+I 0.01513    AAAAAAAAAAAAa
+I 0.01527    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+L 0.00206    System: loaded
+L 0.00291    
+L 0.00313    System: go
+L 0.00339    Files: Prepage to scale images for template <spacious : 1000>
+L 0.00351    Files: Done preparing to scale images
+L 0.00359    System: resolve url <all/sofievskaya-23/>
+L 0.00517    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+R 0.00212    System: loaded
+R 0.00296    
+R 0.00316    System: go
+R 0.00344    Files: Prepage to scale images for template <spacious : 1000>
+R 0.00357    Files: Done preparing to scale images
+R 0.00366    System: resolve url <all/sofievskaya-23/>
+R 0.0053     DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+Q 0.0021     System: loaded
+Q 0.00292    
+Q 0.0031     System: go
+Q 0.00336    Files: Prepage to scale images for template <spacious : 1000>
+Q 0.00347    Files: Done preparing to scale images
+Q 0.00356    System: resolve url <all/sofievskaya-23/>
+Q 0.0052     DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+R 0.0021     System: loaded
+R 0.00296    
+R 0.00317    System: go
+R 0.00344    Files: Prepage to scale images for template <spacious : 1000>
+R 0.00356    Files: Done preparing to scale images
+R 0.00363    System: resolve url <all/sofievskaya-23/>
+R 0.00526    AAAAAAAAAAAAa
+R 0.00543    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+R 0.00205    System: loaded
+R 0.0029     
+R 0.00309    System: go
+R 0.00334    Files: Prepage to scale images for template <spacious : 1000>
+R 0.00346    Files: Done preparing to scale images
+R 0.00354    System: resolve url <all/sofievskaya-23/>
+R 0.0051     AAAAAAAAAAAAa
+R 0.00522    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+H 0.00215    System: loaded
+H 0.00295    
+H 0.00313    System: go
+H 0.0034     Files: Prepage to scale images for template <spacious : 1000>
+H 0.00351    Files: Done preparing to scale images
+H 0.0036     System: resolve url <all/sofievskaya-23/>
+H 0.00522    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+B 0.00231    System: loaded
+B 0.00315    
+B 0.00335    System: go
+B 0.00363    Files: Prepage to scale images for template <spacious : 1000>
+B 0.00375    Files: Done preparing to scale images
+B 0.00384    System: resolve url <all/sofievskaya-23/>
+B 0.00544    AAAAAAAAAAAAa
+B 0.00556    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+V 0.00226    System: loaded
+V 0.00312    
+V 0.00336    System: go
+V 0.00364    Files: Prepage to scale images for template <spacious : 1000>
+V 0.00375    Files: Done preparing to scale images
+V 0.00384    System: resolve url <all/sofievskaya-23/>
+V 0.00542    AAAAAAAAAAAAa
+V 0.00554    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+U 0.0023     System: loaded
+U 0.00313    
+U 0.00333    System: go
+U 0.00361    Files: Prepage to scale images for template <spacious : 1000>
+U 0.00373    Files: Done preparing to scale images
+U 0.00382    System: resolve url <all/sofievskaya-23/>
+U 0.00544    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+W 0.00227    System: loaded
+W 0.00309    
+W 0.00328    System: go
+W 0.00355    Files: Prepage to scale images for template <spacious : 1000>
+W 0.00367    Files: Done preparing to scale images
+W 0.00376    System: resolve url <all/sofievskaya-23/>
+W 0.00534    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+C 0.00222    System: loaded
+C 0.00299    
+C 0.00318    System: go
+C 0.00345    Files: Prepage to scale images for template <spacious : 1000>
+C 0.00357    Files: Done preparing to scale images
+C 0.00366    System: resolve url <all/sofievskaya-23/>
+C 0.00526    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+I 0.00226    System: loaded
+I 0.00311    
+I 0.00331    System: go
+I 0.0036     Files: Prepage to scale images for template <spacious : 1000>
+I 0.00372    Files: Done preparing to scale images
+I 0.00381    System: resolve url <all/sofievskaya-23/>
+I 0.00543    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+L 0.00219    System: loaded
+L 0.00308    
+L 0.00329    System: go
+L 0.00358    Files: Prepage to scale images for template <spacious : 1000>
+L 0.0037     Files: Done preparing to scale images
+L 0.00379    System: resolve url <all/sofievskaya-23/>
+L 0.00541    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+T 0.00219    System: loaded
+T 0.00306    
+T 0.00327    System: go
+T 0.00356    Files: Prepage to scale images for template <spacious : 1000>
+T 0.00367    Files: Done preparing to scale images
+T 0.00376    System: resolve url <all/sofievskaya-23/>
+T 0.00543    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+X 0.00638    System: loaded
+X 0.0073     
+X 0.00742    System: go
+X 0.00766    Files: Prepage to scale images for template <spacious : 1000>
+X 0.0077     Files: Done preparing to scale images
+X 0.00772    System: resolve url <all/sofievskaya-23/>
+X 0.00985    DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+X 0.01323    AAAAAAAAAAAAA
+X 0.01366    DB: done in 0.004
+X 0.01378    DB: query <SELECT * FROM `arch_Notes` WHERE `ID` = '209'>
+X 0.01384    AAAAAAAAAAAAA
+X 0.01416    DB: done in 0
+X 0.01437    DB: query <SELECT `Alias` FROM `arch_Aliases` WHERE `EntityID` = 209 ORDER BY `Stamp` DESC LIMIT 1>
+X 0.01443    AAAAAAAAAAAAA
+X 0.01468    DB: done in 0
+X 0.01496    System: candy <e2m_note>
+X 0.01502    Installer: making sure that engine is installed
+X 0.01505    Installer: done
+X 0.01523    System: signed in? 1
+X 0.01542    System: candy call
+X 0.01547    Note: working...
+X 0.01552    Note: slide down...
+X 0.01557    Note: redirect if necessary
+X 0.01561    Note: done slide down
+X 0.016      Note: navigation...
+X 0.01606    DB: query <SELECT * FROM `arch_Notes` WHERE `IsPublished`=1 AND `Stamp` < '1381854682' ORDER BY STAMP DESC LIMIT 1>
+X 0.01611    AAAAAAAAAAAAA
+X 0.01842    DB: done in 0.002
+X 0.01855    DB: query <SELECT * FROM `arch_Notes` WHERE `IsPublished`=1 AND `Stamp` > '1381854682' ORDER BY STAMP LIMIT 1>
+X 0.0186     AAAAAAAAAAAAA
+X 0.01986    DB: done in 0.001
+X 0.02003    DB: query <SELECT `Alias` FROM `arch_Aliases` WHERE `EntityID` = 208 ORDER BY `Stamp` DESC LIMIT 1>
+X 0.02009    AAAAAAAAAAAAA
+X 0.02033    DB: done in 0
+X 0.02293    DB: query <SELECT `Alias` FROM `arch_Aliases` WHERE `EntityID` = 210 ORDER BY `Stamp` DESC LIMIT 1>
+X 0.02301    AAAAAAAAAAAAA
+X 0.02324    DB: done in 0
+X 0.02411    Note: packaging...
+X 0.02429    Notes: package note <209>...
+X 0.02434    Notes: retrieve cached ctree
+X 0.02438    Notes: continue with the uncacheable, 0 so far...
+X 0.02483    DB: query <SELECT count(*) FROM `arch_Comments` WHERE `NoteID`=209 AND `IsNew`=1>
+X 0.02489    AAAAAAAAAAAAA
+X 0.02523    DB: done in 0
+X 0.02578    Notes: package note done in 0.001
+X 0.02585    Note: comments...
+X 0.02589    Note: assemble ctree...
+X 0.02593    Comments: getting comments for note 209
+X 0.02598    DB: query <SELECT * FROM `arch_Comments` WHERE `NoteID`=209  ORDER BY `Stamp`>
+X 0.02603    AAAAAAAAAAAAA
+X 0.0263     DB: done in 0
+X 0.02693    Note: more work...
+X 0.02708    Note: done
+X 0.02714    System: candy return
+X 0.02719    System: nav and pages
+X 0.02734    System: search form
+X 0.02747    System: blog information
+X 0.02832    System: edge timeinfo
+X 0.02856    System: stuff for logged in user
+X 0.03109    DB: query <SELECT `NoteID`, `Text` FROM `arch_Comments` WHERE `IsNew`=1 ORDER BY `Stamp`>
+X 0.03115    AAAAAAAAAAAAA
+X 0.03145    DB: done in 0
+X 0.03154    Format: format with formatter "neasden" in context "simple"
+X 0.03231    Format: format with formatter "neasden" in context "simple"
+X 0.03331    Format: format with formatter "neasden" in context "simple"
+X 0.04443    Format: format with formatter "neasden" in context "simple"
+X 0.04542    Format: format with formatter "neasden" in context "simple"
+X 0.04692    DB: query <SELECT * FROM `arch_Notes` WHERE `ID` = '42'>
+X 0.047      AAAAAAAAAAAAA
+X 0.04725    DB: done in 0
+X 0.04753    DB: query <SELECT COUNT(*) As NotesCount FROM `arch_Notes` WHERE `IsPublished`=1 AND   `IsVisible`=0>
+X 0.04759    AAAAAAAAAAAAA
+X 0.04913    DB: done in 0.002
+X 0.0505     System: e2_modes call
+X 0.05057    Modes: favourites block
+X 0.05062    Modes: hot block
+X 0.05065    Hot list: working...
+X 0.05079    Hot list: retrieve cached ctree
+X 0.05085    Hot list: done in 0
+X 0.05116    Modes: tags block
+X 0.05334    System: e2_modes return
+X 0.05735    System: end
+Y 0.0063     System: loaded
+Y 0.00731    
+Y 0.00745    System: go
+Y 0.00771    Files: Prepage to scale images for template <spacious : 1000>
+Y 0.00775    Files: Done preparing to scale images
+Y 0.00779    System: resolve url <all/sofievskaya-23/>
+Y 0.0099     DB: query <SELECT * FROM `arch_Aliases` WHERE `Alias` = 'sofievskaya-23' ORDER BY Stamp LIMIT 1>
+Y 0.01329    AAAAAAAAAAAAA
+Y 0.01342    DB: done in 0.003
+Y 0.0135     DB: query <SELECT * FROM `arch_Notes` WHERE `ID` = '209'>
+Y 0.01356    AAAAAAAAAAAAA
+Y 0.0137     DB: done in 0
+Y 0.01389    DB: query <SELECT `Alias` FROM `arch_Aliases` WHERE `EntityID` = 209 ORDER BY `Stamp` DESC LIMIT 1>
+Y 0.01398    AAAAAAAAAAAAA
+Y 0.01407    DB: done in 0
+Y 0.01434    System: candy <e2m_note>
+Y 0.01439    Installer: making sure that engine is installed
+Y 0.01443    Installer: done
+Y 0.01466    System: signed in? 1
+Y 0.01486    System: candy call
+Y 0.01491    Note: working...
+Y 0.01495    Note: slide down...
+Y 0.015      Note: redirect if necessary
+Y 0.01504    Note: done slide down
+Y 0.01547    Note: navigation...
+Y 0.01553    DB: query <SELECT * FROM `arch_Notes` WHERE `IsPublished`=1 AND `Stamp` < '1381854682' ORDER BY STAMP DESC LIMIT 1>
+Y 0.01558    AAAAAAAAAAAAA
+Y 0.0158     DB: done in 0
+Y 0.0159     DB: query <SELECT * FROM `arch_Notes` WHERE `IsPublished`=1 AND `Stamp` > '1381854682' ORDER BY STAMP LIMIT 1>
+Y 0.01596    AAAAAAAAAAAAA
+Y 0.01606    DB: done in 0
+Y 0.01619    DB: query <SELECT `Alias` FROM `arch_Aliases` WHERE `EntityID` = 208 ORDER BY `Stamp` DESC LIMIT 1>
+Y 0.01625    AAAAAAAAAAAAA
+Y 0.01633    DB: done in 0
+Y 0.01878    DB: query <SELECT `Alias` FROM `arch_Aliases` WHERE `EntityID` = 210 ORDER BY `Stamp` DESC LIMIT 1>
+Y 0.01886    AAAAAAAAAAAAA
+Y 0.01896    DB: done in 0
+Y 0.01982    Note: packaging...
+Y 0.01999    Notes: package note <209>...
+Y 0.02004    Notes: retrieve cached ctree
+Y 0.02008    Notes: continue with the uncacheable, 0 so far...
+Y 0.02053    DB: query <SELECT count(*) FROM `arch_Comments` WHERE `NoteID`=209 AND `IsNew`=1>
+Y 0.02059    AAAAAAAAAAAAA
+Y 0.02069    DB: done in 0
+Y 0.02118    Notes: package note done in 0.001
+Y 0.02124    Note: comments...
+Y 0.02128    Note: assemble ctree...
+Y 0.02132    Comments: getting comments for note 209
+Y 0.02136    DB: query <SELECT * FROM `arch_Comments` WHERE `NoteID`=209  ORDER BY `Stamp`>
+Y 0.02141    AAAAAAAAAAAAA
+Y 0.02152    DB: done in 0
+Y 0.02214    Note: more work...
+Y 0.02228    Note: done
+Y 0.02233    System: candy return
+Y 0.02238    System: nav and pages
+Y 0.02255    System: search form
+Y 0.02268    System: blog information
+Y 0.02358    System: edge timeinfo
+Y 0.02379    System: stuff for logged in user
+Y 0.0263     DB: query <SELECT `NoteID`, `Text` FROM `arch_Comments` WHERE `IsNew`=1 ORDER BY `Stamp`>
+Y 0.02636    AAAAAAAAAAAAA
+Y 0.02646    DB: done in 0
+Y 0.02659    Format: format with formatter "neasden" in context "simple"
+Y 0.02737    Format: format with formatter "neasden" in context "simple"
+Y 0.02837    Format: format with formatter "neasden" in context "simple"
+Y 0.0396     Format: format with formatter "neasden" in context "simple"
+Y 0.04057    Format: format with formatter "neasden" in context "simple"
+Y 0.04205    DB: query <SELECT * FROM `arch_Notes` WHERE `ID` = '42'>
+Y 0.04212    AAAAAAAAAAAAA
+Y 0.04225    DB: done in 0
+Y 0.0425     DB: query <SELECT COUNT(*) As NotesCount FROM `arch_Notes` WHERE `IsPublished`=1 AND   `IsVisible`=0>
+Y 0.04259    AAAAAAAAAAAAA
+Y 0.04268    DB: done in 0
+Y 0.04397    System: e2_modes call
+Y 0.04404    Modes: favourites block
+Y 0.04409    Modes: hot block
+Y 0.04413    Hot list: working...
+Y 0.04425    Hot list: retrieve cached ctree
+Y 0.04431    Hot list: done in 0
+Y 0.04462    Modes: tags block
+Y 0.04678    System: e2_modes return
+Y 0.05065    System: end
