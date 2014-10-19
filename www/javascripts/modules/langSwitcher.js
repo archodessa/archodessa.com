@@ -22,18 +22,31 @@ var ctrl = {
         $('[data-lang="ru"]').show();
     },
 
+    /**
+     * On every lang change
+     * @param event
+     */
     handleClick: function(event) {
         event.preventDefault();
 
+        // current lang link is not clickable
         if( $(event.target).hasClass('active') ) return;
 
+        // get lang to change from links atr  data-for-lang=""
         var lang = $(event.target).data('for-lang');
 
+        // hide all and show only current lang images
         $('[data-lang]').hide();
         $('[data-lang="'+lang+'"]').show();
 
+        // change lang switcher to selected lang
         $('.lang-btn').removeClass('active');
         langBtn[lang].addClass('active');
+
+        // to show lazy loaded images
+        setTimeout(function () {
+            $(window).trigger("scroll")
+        }, 200);
     }
 
 };

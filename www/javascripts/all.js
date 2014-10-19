@@ -27,14 +27,14 @@
     lazy: function () {
       var lazy = $("img.lazy");
       if (this.isRetina()) {
-        lazy.each(function () {
-          $(this).data("original", $(this).data("original").replace(/.jpg/, '@2x.jpg'));
-        });
+        //lazy.each(function () {
+        //  $(this).data("original", $(this).data("original").replace(/.jpg/, '@2x.jpg'));
+        //});
       }
 
       require(["/javascripts/lib/jquery.lazyload.min.js"], function () {
         lazy.lazyload({
-          effect: "fadeIn"
+          effect: "fadeIn",
         });
         setTimeout(function () {
           $(window).trigger("scroll")
