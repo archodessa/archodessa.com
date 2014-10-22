@@ -61,7 +61,10 @@
     <nav>
         <div id="langs-switcher" style="margin-top: 17px;">
             <a id="ru-lang-btn" class="active lang-btn" href="" data-for-lang="ru">Рус</a>
+            <a id="en-lang-btn" class="lang-btn" href="" data-for-lang="en">En</a>
             <a id="fr-lang-btn" class="lang-btn" href="" data-for-lang="fr">Fr</a>
+            <a id="de-lang-btn" class="lang-btn" href="" data-for-lang="de">De</a>
+            <a id="ua-lang-btn" class="lang-btn" href="" data-for-lang="ua">Ua</a>
         </div>
 
         <ul id='main-nav'>

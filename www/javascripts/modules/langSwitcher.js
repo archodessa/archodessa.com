@@ -1,7 +1,10 @@
 // define buttons
 var langBtn = {
     ru: $('#ru-lang-btn'),
-    fr: $('#fr-lang-btn')
+    fr: $('#fr-lang-btn'),
+    de: $('#de-lang-btn'),
+    en: $('#en-lang-btn'),
+    ua: $('#ua-lang-btn')
 };
 
 
@@ -16,6 +19,9 @@ var ctrl = {
         //bind events
         langBtn.ru.on('click', ctrl.handleClick );
         langBtn.fr.on('click', ctrl.handleClick );
+        langBtn.de.on('click', ctrl.handleClick );
+        langBtn.en.on('click', ctrl.handleClick );
+        langBtn.ua.on('click', ctrl.handleClick );
 
         //set default
         $('[data-lang]').hide();
