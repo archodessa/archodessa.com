@@ -85,7 +85,7 @@
   </div>
   <div class="form-element">
     <textarea name="text"
-      autofocus="autofocus"
+      
       class="required full-width"
       id="text"
       tabindex="3"
