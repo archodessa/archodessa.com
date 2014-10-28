@@ -584,6 +584,7 @@ a:hover h3, a:focus h3 {
 /* Language Switchers */
 a.lang-btn {
     margin-left: 5px;
+    font-size: 14px;
     text-decoration: none;
     border-bottom: 1px dashed rgb(122, 0, 255);
 }

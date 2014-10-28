@@ -1,4 +1,4 @@
-<?
+<?php 
 
 // display_name = Русский
 
@@ -13,15 +13,13 @@ function e2l_load_strings () {
   'e2--default-blog-author' => 'Автор блога',
   
   // installer
-  'pt--install' => 'Установка',
+  'pt--install' => 'Установка Эгеи',
   'gs--user-fixes-needed' => 'Так, нужно кое-что поправить.',
   'gs--following-folders-missing' => 'Не найдены следующие папки из дистрибутива движка:',
   'gs--could-not-create-them-automatically' => 'Создать их автоматически не удалось из-за недостатка прав. Загрузите на сервер полный дистрибутив.',
-  'gs--let-scripts-write-to-following-folders' => 'Дайте скриптам права на запись в папках:',
   'gs--and-reload-installer' => 'И перезагрузите установщик',
-  'fb--begin' => 'Начать',
-  'er--no-password-entered' => 'Вы не ввели пароль',
-  'er--file-write-failed-blame-rights' => 'Возникли проблемы при записи файлов, возможно недостаточно прав доступа',
+  'fb--begin' => 'Начать блог',
+  'fb--retry' => 'Попробовать ещё раз',
   'er--double-check-db-params' => 'Перепроверьте реквизиты базы',
   'gs--instantiated-version' => 'Инстанциирована версия',
   'pt--installer-loading' => 'Загрузка...',
@@ -31,9 +29,13 @@ function e2l_load_strings () {
   'ff--prefix-occupied' => 'уже занят',
   'ff--tables-not-found' => 'таблиц не найдено',
 
+  // diags
+  'et--fix-permissions-on-server' => 'Настройте права на сервере',
+  'gs--enable-write-permissions-for-the-following' => 'Пожалуйста, дайте права на запись здесь:',
   
   // sign in
   'pt--sign-in' => 'Вход',
+  'er--cannot-write-auth-data' => 'Не удаётся записать данные аутентификации',
 
   // archive
   'pt--nth-year' => '$[year]-й год',
@@ -45,21 +47,19 @@ function e2l_load_strings () {
   'gs--part-x-of-y' => 'часть $[part] из $[of]',
   
   // posts
-  'ln--new-post' => 'Новое здание',
-  'bt--close-comments-to-post' => 'Закрыть комментарии к зданию',
-  'bt--open-comments-to-post' => 'Открыть комментарии к зданию',
-  'pt--new-post' => 'Новое здание',
-  'pt--edit-post' => 'Правка здания',
-  'er--post-must-have-title-and-text' => 'У здания должны быть название и текст',
-  'er--error-publishing-post' => 'Ошибка при публикации здания',
-  'er--error-updating-post' => 'Ошибка при изменении здания',
-  'er--error-deleting-post-tag-info' => 'Ошибка при удалении данных о тегах здания',
-  'er--error-deleting-post' => 'Ошибка при удалении здания',
+  'ln--new-post' => 'Новая',
+  'bt--close-comments-to-post' => 'Закрыть комментарии к заметке',
+  'bt--open-comments-to-post' => 'Открыть комментарии к заметке',
+  'pt--new-post' => 'Новая заметка',
+  'pt--edit-post' => 'Правка заметки',
+  'er--post-must-have-title-and-text' => 'У заметки должны быть название и текст',
+  'er--error-updating-post' => 'Ошибка при изменении заметки',
+  'er--error-deleting-post-tag-info' => 'Ошибка при удалении данных о тегах заметки',
   'er--wrong-datetime-format' => 'Неправильный формат даты-времени. Должен быть: «ДД.ММ.ГГГГ ЧЧ:ММ:СС»',
-  'er--cannot-get-post-from-db' => 'Не удалось извлечь здание из базы',
+  'er--cannot-get-post-from-db' => 'Не удалось извлечь заметку из базы',
   'er--images-only-supported' => 'Поддерживаются только изображения',
-  'er--cannot-create-thumbnail' => 'Не удалось создать уменьшенное изображение (возможно, нет доступа к папке /pictures/thumbs/)',
-  'er--cannot-upload-image' => 'Не удалось загрузить изображение',
+  'er--cannot-create-thumbnail' => 'Не удалось создать уменьшенное изображение',
+  'er--cannot-upload' => 'Не удалось загрузить файл',
   'ff--title' => 'Название',
   'ff--text' => 'Текст',
   'ff--text-formatting' => 'Форматирование текста',
@@ -76,12 +76,12 @@ function e2l_load_strings () {
   'ff--with-dst' => '+1 летом',
   'ff--post-time' => 'Время публикации',
   
-  'pt--post-deletion' => 'Удаление здания',
-  'gs--post-will-be-deleted' => 'Здание «$[post]» будет удалено вместе со всеми комментариями.',
+  'pt--post-deletion' => 'Удаление заметки',
+  'gs--post-will-be-deleted' => 'Заметка «$[post]» будет удалена вместе со всеми комментариями.',
 
   // frontpage 
-  'er--cannot-show-latest-notes' => 'Невозможно отобразить последние здания',
-  'nm--posts' => 'Здания',
+  'er--cannot-show-latest-notes' => 'Невозможно отобразить последние заметки',
+  'nm--posts' => 'Заметки',
   'gs--next-posts' => 'следующие',
   'gs--prev-posts' => 'предыдущие',
   
@@ -100,11 +100,11 @@ function e2l_load_strings () {
   'pt--edit-reply-to-comment' => 'Правка ответа на комментарий',
   'pt--unsubscription-done' => 'Получилось!',
   'pt--unsubscription-failed' => 'Не получилось',
-  'gs--you-are-not-subscribed' => 'Кажется, вы и так не подписаны на комментарии к этому зданию',
-  'gs--you-are-no-longer-subscribed' => 'Вы больше не подписаны на комментарии к зданию',
+  'gs--you-are-not-subscribed' => 'Кажется, вы и так не подписаны на комментарии к этой заметке',
+  'gs--you-are-no-longer-subscribed' => 'Вы больше не подписаны на комментарии к заметке',
   'gs--unsubscription-didnt-work' => 'Почему-то отписка не сработала',          
   'gs--comment-not-found' => 'Комментарий не найден',
-  'gs--post-not-found' => 'Здание не найдено',
+  'gs--post-not-found' => 'Заметка не найдена',
   'gs--comment-too-long' => 'Слишком длинный комментарий',
   'gs--comment-too-long-description' => 'Вы отправили слишком длинный комментарий, поэтому он не был сохранён.',
   'gs--comment-double-post' => 'Повторный комментарий',
@@ -112,11 +112,8 @@ function e2l_load_strings () {
   'gs--comment-spam-suspect' => 'Комментарий похож на спам',
   'gs--comment-spam-suspect-description' => 'Простите, но робот решил, что это спам, поэтому комментарий не был отправлен.',
   'gs--you-are-already-subscribed' => 'Вы подписаны на комментарии. Ссылка для отписки приходит в каждом письме с новым комментарием.',
-  'er--error-removing-comment' => 'Ошибка при удалении комментария',
-  'er--error-removing-comment-reply' => 'Ошибка при удалении ответа на комментарий',
-  'er--post-not-commentable' => 'Это здание нельзя комментировать',
+  'er--post-not-commentable' => 'Эту заметку нельзя комментировать',
   'er--name-email-text-required' => 'И имя, и эл. адрес, и текст комментария обязательны',
-  'er--error-editing-comment-reply' => 'Ошибка при изменении ответа на комментарий',
   'ff--notify-subscribers' => 'Отправить по почте комментатору и другим подписчикам',
   'gs--your-comment' => 'Ваш комментарий',
   'ff--full-name' => 'Имя и фамилия',
@@ -134,21 +131,19 @@ function e2l_load_strings () {
   
   // tags
   'pt--tags' => 'Теги',
-  'pt--posts-tagged' => 'Здания с тегом',
+  'pt--posts-tagged' => 'Заметки с тегом',
   'tt--edit-tag' => 'Править параметры и описание тега',
   'gs--tagged' => 'с тегом',
   'pt--tag-edit' => 'Изменение тега',
   'pt--tag-delete' => 'Удаление тега',
-  'pt--posts-without-tags' => 'Здания без тегов',
-  'gs--no-posts-without-tags' => 'Зданий без тегов нет.',
+  'pt--posts-without-tags' => 'Заметки без тегов',
+  'gs--no-posts-without-tags' => 'Заметок без тегов нет.',
   'er--bad-tag-urlname' => 'Такой вид в адресной строке не может быть использован',
-  'er--error-updating-tag' => 'Ошибка при обновлении тега',
   'er--cannot-rename-tag' => 'Такое имя или вид в адресной строке уже используются другим тегом',
-  'er--error-deleting-tag' => 'Ошибка при удалении тега',
   'ff--tag-name' => 'Название',
   'ff--tag-urlname' => 'В адресной строке',
   'ff--tag-description' => 'Описание',
-  'gs--tag-will-be-deleted-notes-remain' => 'Тег «$[tag]» будет удалён из зданий, но сами здания останутся.',
+  'gs--tag-will-be-deleted-notes-remain' => 'Тег «$[tag]» будет удалён из заметок, но сами заметки останутся.',
   'gs--see-also-tag' => 'См. также тег',
   'gs--tags-important' => 'важные',
   'gs--tags-all' => 'все',
@@ -157,6 +152,8 @@ function e2l_load_strings () {
   // most commented and favourites
   'pt--most-commented' => 'Самые комментируемые за $[period.periodname]',
   'nm--most-commented' => 'Обсуждаемое',
+  'pt--most-read' => 'Самые читаемые за $[period.periodname]',
+  'nm--most-read' => 'Популярное',
   'pt--favourites' => 'Избранное',
   'nm--favourites' => 'Избранное',
   'gs--no-favourites' => 'Избранного нет.',
@@ -168,7 +165,7 @@ function e2l_load_strings () {
   'gs--earlier' => 'Ранее',
   'gs--later' => 'Позднее',
   'pt--n-posts' => '$[number.cardinal]',
-  'pt--no-posts' => 'Нет зданий',
+  'pt--no-posts' => 'Нет заметок',
 
   // search
   'pt--search' => 'Поиск',
@@ -178,17 +175,21 @@ function e2l_load_strings () {
   'gs--search-query-empty' => 'Текст для поиска пуст, напишите что-нибудь',
   'gs--search-query-too-short' => 'Слишком короткий текст, напишите хотя бы 4 буквы.',
   'gs--nothing-found' => 'Ничего не найдено.',
-  'gs--many-posts' => 'Много зданий',
+  'gs--many-posts' => 'Много заметок',
   'pt--search-results' => 'Результаты поиска',
   
   // password, sessions, settings
   'pt--password' => 'Пароль',
-  'pt--password-for-blog' => 'Пароль для доступа к сайту',
+  'pt--password-for-blog' => 'Пароль для доступа к блогу',
+  'ff--old-password' => 'Старый пароль',
+  'ff--new-password' => 'Новый пароль',
   'fb--change' => 'Поменять',
   'gs--password-changed' => 'Пароль изменён',
   'er--could-not-change-password' => 'Не получилось изменить пароль',
+  'er--no-password-entered' => 'Вы не ввели пароль',
   'er--wrong-password' => 'Неправильный пароль',
   'ff--displayed-as-plain-text' => 'отображается при вводе',
+  'er--settings-not-saved' => 'Настройка не сохранена',
 
   'pt--sessions' => 'Открытые сессии',
   'gs--sessions-description' => 'Когда вы заходите под своим паролем на нескольких устройствах или с помощью нескольких браузеров, здесь показывается список всех таких сессий. Если какая-то из них вызывает подозрения, завершите все сессии кроме текущей, а потом смените пароль от блога.',
@@ -212,22 +213,22 @@ function e2l_load_strings () {
   'ff--theme' => 'Оформление',
   'ff--theme-how-to' => 'Как создать свою тему?',
   'ff--theme-selector-wants-js' => 'Для выбора темы оформления, включите в браузере поддержку скриптов (JavaScript).',
-  'ff--posts' => 'Здания',
+  'ff--posts' => 'Заметки',
   'ff--items-per-page-before' => 'Показывать по',
   'ff--items-per-page-after' => 'на странице',
-  'ff--show-favourites' => 'Показывать блок «Избранное»',
+  'ff--show-sharing-buttons' => 'Показывать кнопки отправки в соцсети',
   'ff--comments' => 'Комментарии',
   'ff--comments-enable' => 'Разрешать',
-  'ff--only-for-recent-posts' => 'только к свежим зданиям',
-  'ff--show-hot' => 'и показывать блок «Обсуждаемое»',
-  'ff--send-to-address' => 'и присылать по почте на адрес:',
+  'ff--only-for-recent-posts' => 'только к свежим заметкам',
+  'ff--show-hot' => 'показывать блок «Обсуждаемое»',
+  'ff--send-to-address' => 'присылать по почте на адрес:',
   'ff--administration' => 'Администрирование:',
   'gs--password' => 'пароль',
   'gs--db-connection' => 'соединение с базой',
 
   'pt--name-and-author' => 'Название и автор',
   'ff--blog-title' => 'Название блога',
-  'ff--blog-description' => 'Коротко о сайте',
+  'ff--blog-description' => 'Коротко о блоге',
   'ff--blog-author' => 'Автор',
 
   'pt--database' => 'База данных',
@@ -238,20 +239,30 @@ function e2l_load_strings () {
   'fb--connect-to-this-db' => 'Подключиться с этими параметрами',
   'er--cannot-save-data' => 'Не получается сохранить данные',
   
+  'pt--diagnostics' => 'Диагностика',
+
   'ff--changing-sidebar' => 'Как изменить эту колонку?',
   
+  // welcome
+  'pt--welcome' => 'Готово!',
+  'pt--welcome-text-pre' => 'Блог создан. ',
+  'pt--welcome-text-href-write' => 'Напишите заметку',
+  'pt--welcome-text-or' => ' или ',
+  'pt--welcome-text-href-settings' => 'настройте что-нибудь',
+  'pt--welcome-text-post' => '.',
+
   // need for password
   'gs--need-password' => 'Зайдите под своим паролем',
   'ff--public-computer' => 'Чужой компьютер',
-  'gs--need-password-for-action' => 'Чтобы $[action]<br />зайдите под своим паролем',
-  'gs--np-action-write' => 'написать о здании',
-  'gs--np-action-note-edit' => 'править здание',
+  'gs--need-password-for-action' => 'Чтобы $[action], зайдите под своим паролем',
+  'gs--np-action-write' => 'написать заметку',
+  'gs--np-action-note-edit' => 'править заметку',
   'gs--np-action-comment-edit' => 'править этот комментарий',
   'gs--np-action-comment-reply' => 'ответить на этот комментарий',
   'gs--np-action-drafts' => 'открыть черновики',
   'gs--np-action-draft' => 'открыть этот черновик',
   'gs--np-action-tag-edit' => 'править этот тег',
-  'gs--np-action-name-and-author' => 'изменять название сайта',
+  'gs--np-action-name-and-author' => 'изменять название блога',
   'gs--np-action-settings' => 'настраивать блог',
   'gs--np-action-password' => 'изменять пароль',
   'gs--np-action-database' => 'изменять параметры базы данных',
@@ -263,7 +274,7 @@ function e2l_load_strings () {
   'fb--save-changes' => 'Сохранить изменения',
   'fb--save-and-preview' => 'Сохранить и посмотреть',
   'fb--publish' => 'Опубликовать',
-  'fb--publish-draft' => 'Опубликовать здание',
+  'fb--publish-draft' => 'Опубликовать заметку',
   'fb--select' => 'Выбрать',
   'fb--apply' => 'Применить',
   'fb--delete' => 'Удалить',
@@ -273,7 +284,7 @@ function e2l_load_strings () {
   
   // time
   'pt--default-timezone' => 'Часовой пояс по умолчанию',
-  'gs--e2-stores-each-posts-timezone' => 'Е2 хранит часовой пояс отдельно для каждого здания.',
+  'gs--e2-stores-each-posts-timezone' => 'Е2 хранит часовой пояс отдельно для каждой заметки.',
   'gs--e2-autodetects-timezone' => 'При публикации часовой пояс обычно определяется автоматически. А в случае неудачи используется выбранный здесь часовой пояс.',
 
   'tt--from-the-future' => 'Из будущего',
@@ -309,11 +320,17 @@ function e2l_load_strings () {
   'em--comment-replied-at' => 'Комментарий, на который ответил автор',
   
   // rss
-  'nf--comments-on-this-post' => 'Комментарии к этому зданию',
-  'gs--comments-on-post' => 'комментарии к зданию',
-  'gs--comment-on-post' => 'комментарий к зданию',
-  'gs--posts-tagged' => 'здания с тегом',
+  'nf--comments-on-this-post' => 'Комментарии к этой заметке',
+  'gs--comments-on-post' => 'комментарии к заметке',
+  'gs--comment-on-post' => 'комментарий к заметке',
+  'gs--posts-tagged' => 'заметки с тегом',
   'gs--search-results' => 'результаты поиска',
+  
+  // social networks
+  'sn--twitter-verb' => 'Твитнуть',
+  'sn--facebook-verb' => 'Поделиться',
+  'sn--vkontakte-verb' => 'Поделиться',
+  'sn--pinterest-verb' => 'Запинить',
 
   // umacros
   'um--month' => '$[month.monthname]',
@@ -321,7 +338,7 @@ function e2l_load_strings () {
   'um--month-g' => '$[month.monthname.genitive]',
   
   // more strings
-  'gs--no-such-notes' => 'Таких зданий нет.',
+  'gs--no-such-notes' => 'Таких заметок нет.',
   'pt--page-not-found' => 'Страница не найдена',
   'gs--page-not-found' => 'Страница не найдена.',
   
@@ -335,7 +352,6 @@ function e2l_load_strings () {
   'gs--pgt' => 'Время генерации',
   'gs--seconds-contraction' => 'с',
   'gs--updated-successfully' => 'Выполнено обновление с версии $[from] до версии $[to]',
-  'gs--preview-of-future-blog' => 'Так будет выглядеть движок изнутри после того как вы напишете что-нибудь:',
   'gs--good-blogs' => 'Хорошие блоги и сайты',
   
   );
@@ -377,7 +393,7 @@ function e2lstr_periodname ($period) {
 function e2lstr_cardinal ($number, $modifier = '', $string_id) {
 
   $what = $number;
-  if ($string_id == 'pt--n-posts') $what = $number .' здан(ие,ия,ий)';
+  if ($string_id == 'pt--n-posts') $what = $number .' замет(ка,ки,ок)';
   if ($string_id == 'tt--minutes-ago') $what = $number .' минут(у,ы,)';
   if ($string_id == 'tt--hours-ago') $what = $number .' час(а,ов)';
   if ($string_id == 'gs--n-comments') $what = $number .' комментари(й,я,ев)';
@@ -385,66 +401,6 @@ function e2lstr_cardinal ($number, $modifier = '', $string_id) {
 
   return e2_decline_for_number ($what);
   
-}
-
-// ну например, фирма dosya, что-то ещё
-// don’t rename this function, it’s listed in build.php
-/*
-function e2lstr_transliterate ($text) {
-
-  $map = array (
-    'ье' => 'ye',
-    'ё'  => 'yo', 
-    'ж'  => 'zh', 
-    'ьи' => 'yi',
-    'ч'  => 'ch', 
-    'ш'  => 'sh', 
-    'щ'  => 'sch', 
-    'ъ'  => '', 
-    'ый'  => 'yi', 
-    'ь'  => '', 
-    'ю'  => 'yu', 
-    'я'  => 'ya', 
-    'ЬЕ' => 'YE',
-    'Ье' => 'Ye',
-    'Ё'  => 'Yo', 
-    'Ж'  => 'Zh', 
-    'ЬИ' => 'YI',
-    'Ьи' => 'Yi',
-    'Ч'  => 'Ch', 
-    'Ш'  => 'Sh', 
-    'Щ'  => 'Sch', 
-    'Ъ'  => '', 
-    'ЫЙ'  => 'YI', 
-    'Ый'  => 'Yi', 
-    'Ь'  => '', 
-    'Ю'  => 'Yu', 
-    'Я'  => 'Ya', 
-  );
-  
-  $ru = 'абвгдезийклмнопрстуфхцыэАБВГДЕЗИЙКЛМНОПРСТУФХЦЫЭ';
-  $en = 'abvgdeziyklmnoprstufhcyeABVGDEZIYKLMNOPRSTUFHCYE';
-  
-  for ($i = 0; $i < mb_strlen ($ru); ++ $i) {
-    $map[mb_substr ($ru, $i, 1)] = mb_substr ($en, $i, 1); // usafe
-  }
-
-  $text = strtr ($text, $map); // usafe
-
-  return $text;
-
-}
-*/
-
-function e2lstr_translit_table () {
-
-  return array (
-    'а б в г д е ё  ж  з и й к л м н о п р с т у ф х ц ч  ш  щ   ый Ый ы ье Ье ьи Ьи э ю  я ',
-    'a b v g d e yo zh z i y k l m n o p r s t u f h c ch sh sch y  y  y ye Ye yi Yi e yu ya',
-    'А Б В Г Д Е Ё  Ж  З И Й К Л М Н О П Р С Т У Ф Х Ц Ч  Ш  Щ   ЫЙ ыЙ Ы ЬЕ ьЕ ЬИ ьИ Э Ю  Я ',
-    'A B V G D E Yo Zh Z I Y K L M N O P R S T U F H C Ch Sh Sch Y  Y  Y YE yE YI yI E Yu Ya',
-  );
-
 }
 
 
