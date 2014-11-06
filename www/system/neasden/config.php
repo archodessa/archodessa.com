@@ -77,6 +77,16 @@ return array (
       'width' => $settings['max-image-width'],
       'height' => round ($settings['max-image-width'] / 1.6),
     ),
+
+    'maps_google' => array (
+      'css-class' => 'txt-map',
+      'width' => 1000,
+      'height' => 350,
+	  
+	  'view-static' => true,
+	  'view-interactive' => true,
+    ),
+
     'vimeo' => array (
       'css-class' => 'e2-text-video',
       'width' => $settings['max-image-width'],
