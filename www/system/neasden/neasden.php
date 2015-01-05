@@ -190,6 +190,10 @@ class Neasden {
     }
   
     // remaining replacements
+
+      //to handle big amount of texts
+      ini_set('max_execution_time', 300);
+
     if (1) {
       $len = mb_strlen ($enclosures[0]);
       $qdepth = 0;
